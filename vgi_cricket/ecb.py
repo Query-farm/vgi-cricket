@@ -134,6 +134,28 @@ def fixture_rows(content: list[Any]) -> list[dict[str, Any]]:
     return rows
 
 
+def _tied(
+    tied: int | None,
+    played: int | None,
+    won: int | None,
+    lost: int | None,
+    drawn: int | None,
+    no_result: int | None,
+) -> int | None:
+    """Ties, correcting ECB's County Championship tables that repeat the draw count as ``tied``.
+
+    When the reported results add up to more than the matches played, ``tied`` cannot be
+    right, so it is recomputed as the matches not accounted for by wins, losses, draws, and
+    no results.
+    """
+    if tied is None or played is None or won is None or lost is None or drawn is None or no_result is None:
+        return tied
+    others = won + lost + drawn + no_result
+    if others + tied <= played:
+        return tied
+    return max(played - others, 0)
+
+
 def standings_rows(tournament_id: int, payload: Mapping[str, Any]) -> list[dict[str, Any]]:
     """One row per team per group in the official ECB table."""
     tournament = _mapping(payload.get("tournamentId"))
@@ -146,6 +168,8 @@ def standings_rows(tournament_id: int, payload: Mapping[str, Any]) -> list[dict[
             team_id = _int(team.get("id"))
             if team_id is None:
                 continue
+            played, won, lost = _int(entry.get("played")), _int(entry.get("won")), _int(entry.get("lost"))
+            drawn, no_result = _int(entry.get("drawn")), _int(entry.get("noResult"))
             form = "".join(
                 str(_mapping(value).get("outcome") or "")[:1] for value in entry.get("recentForm") or []
             )
@@ -158,12 +182,12 @@ def standings_rows(tournament_id: int, payload: Mapping[str, Any]) -> list[dict[
                     "team": team.get("fullName"),
                     "team_abbreviation": team.get("abbreviation"),
                     "team_id": team_id,
-                    "played": _int(entry.get("played")),
-                    "won": _int(entry.get("won")),
-                    "lost": _int(entry.get("lost")),
-                    "tied": _int(entry.get("tied")),
-                    "drawn": _int(entry.get("drawn")),
-                    "no_result": _int(entry.get("noResult")),
+                    "played": played,
+                    "won": won,
+                    "lost": lost,
+                    "tied": _tied(_int(entry.get("tied")), played, won, lost, drawn, no_result),
+                    "drawn": drawn,
+                    "no_result": no_result,
                     "batting_bonus": _int(entry.get("battingBonus")),
                     "bowling_bonus": _int(entry.get("bowlingBonus")),
                     "deductions": _decimal(entry.get("deductions"), "0.1"),

@@ -108,7 +108,7 @@ def event_row(event: Mapping[str, Any], league: Mapping[str, Any] | None = None)
         "country": address.get("country") or None,
         "state": status_type.get("state"),
         "status": status_type.get("description"),
-        "summary": status.get("summary") or status_type.get("detail"),
+        "summary": clean_text(status.get("summary") or status_type.get("detail")),
         "home_team": _mapping(home.get("team")).get("displayName"),
         "home_team_id": to_int(_mapping(home.get("team")).get("id")),
         "home_score": home.get("score") or None,

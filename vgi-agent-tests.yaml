@@ -54,9 +54,10 @@ tasks:
 
   - name: ipl_2026_points_table
     reference_sql: >-
-      SELECT c.name, s.position, s.team, s.played, s.won, s.lost, s.no_result, s.points, s.net_run_rate
+      SELECT s.position, s.team, s.played, s.won, s.lost, s.no_result, s.points, s.net_run_rate
       FROM cricket.main.standings('ipl', season := '2026') s
-      JOIN cricket.main.competitions c USING (competition)
+      WHERE s.competition IN (
+        SELECT competition FROM cricket.main.competitions WHERE name = 'Indian Premier League')
       ORDER BY s.position
     ignore_column_names: true
     success_criteria: >-
@@ -121,8 +122,10 @@ tasks:
 
   - name: whats_on_now
     check_sql: >-
-      SELECT (SELECT count(*) FROM cricket.main.current_matches) >= 0
-         AND (SELECT count(*) FROM cricket.main.current_recent_matches) >= 0
+      SELECT (SELECT count(*) FROM cricket.main.current_matches) > 0
+         AND (SELECT count(*) FROM cricket.main.current_matches
+              WHERE state NOT IN ('pre', 'in', 'post')) = 0
+         AND (SELECT count(*) FROM cricket.main.current_recent_matches) > 0
     success_criteria: >-
       Lists in-progress matches from current_matches (state = 'in') and the last week's finished
       results from current_recent_matches.

@@ -435,7 +435,11 @@ ECB_TOURNAMENTS_SCHEMA = pa.schema(
     [
         field("tournament_id", I64, "ECB PulseLive tournament identifier (opaque number).", nullable=False),
         field("name", STR, "Tournament name."),
-        field("tournament_type", STR, "ENGLISH_DOMESTIC or INTERNATIONAL."),
+        field(
+            "tournament_type",
+            STR,
+            "ECB tournament type, for example ENGLISH_DOMESTIC, INTERNATIONAL, or WOMEN_INTERNATIONAL.",
+        ),
         field("match_types", STR, "Scheduled match counts by type, for example T20:34."),
         field("total_matches", I32, "Count of scheduled matches across all match types."),
         field("provisional", BOOL, "Whether ECB flags the tournament as provisional."),
@@ -478,7 +482,11 @@ ECB_STANDINGS_SCHEMA = pa.schema(
         field("played", I32, "Matches played."),
         field("won", I32, "Wins."),
         field("lost", I32, "Losses."),
-        field("tied", I32, "Ties."),
+        field(
+            "tied",
+            I32,
+            "Ties; recomputed from played minus other results when ECB repeats the draw count here.",
+        ),
         field("drawn", I32, "Draws."),
         field("no_result", I32, "No results."),
         field("batting_bonus", I32, "Batting bonus points (County Championship)."),

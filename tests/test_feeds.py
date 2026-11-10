@@ -132,5 +132,11 @@ def test_ecb_standings_drop_contact_details() -> None:
     county = ecb.standings_rows(76738, load_json("ecb_standings_76738.json"))
     assert county[0]["group_name"] == "Division 1"
     assert county[0]["batting_bonus"] == 24
+    # ECB repeats the draw count (6) in `tied`; 7 won + 1 lost + 6 drawn = 14 played, so no ties.
+    assert (county[0]["played"], county[0]["drawn"], county[0]["tied"]) == (14, 6, 0)
+    assert all(
+        row["won"] + row["lost"] + row["tied"] + row["drawn"] + row["no_result"] == row["played"]
+        for row in county
+    )
     assert county[0]["net_run_rate"] is None
     assert "redacted" not in json.dumps(county, default=str)
