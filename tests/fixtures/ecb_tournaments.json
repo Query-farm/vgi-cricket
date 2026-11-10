@@ -1,0 +1,54 @@
+{
+ "pageInfo": {
+  "page": 0,
+  "numPages": 1,
+  "pageSize": 100,
+  "numEntries": 4
+ },
+ "content": [
+  {
+   "metadata": {},
+   "id": 76749,
+   "matchesByType": {
+    "ODI": 3,
+    "T20I": 5
+   },
+   "name": "New Zealand in India",
+   "provisional": false,
+   "tournamentType": "INTERNATIONAL"
+  },
+  {
+   "metadata": {},
+   "id": 76761,
+   "matchesByType": {
+    "OTHER": 5
+   },
+   "name": "England Under-19s Women in India",
+   "provisional": false,
+   "tournamentType": "ENGLISH_DOMESTIC"
+  },
+  {
+   "metadata": {},
+   "id": 76760,
+   "matchesByType": {
+    "ODI": 6,
+    "OTHER": 8
+   },
+   "name": "National County v First Class County",
+   "provisional": false,
+   "tournamentType": "ENGLISH_DOMESTIC"
+  },
+  {
+   "metadata": {},
+   "id": 76759,
+   "matchesByType": {
+    "TEST": 3,
+    "ODI": 3,
+    "OTHER": 1
+   },
+   "name": "England in South Africa",
+   "provisional": false,
+   "tournamentType": "INTERNATIONAL"
+  }
+ ]
+}

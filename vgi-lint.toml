@@ -1,0 +1,17 @@
+location = "uv run --project . vgi-cricket"
+select = ["ALL"]
+fail_on = "warning"
+
+ignore = [
+  { code = "VGI311", kind = "tooling-bug", reason = """\
+Each parameterless all_* scan is exposed as its corresponding table (all_competitions as \
+competitions, all_current_matches as current_matches, and so on). The rule only recognizes \
+matching names, but a function and table cannot share a name inside one schema; the deliberate \
+all_* names avoid those collisions.\
+""" },
+  { code = "VGI520", kind = "domain-exemption", reason = """\
+Agent tasks exercise the public tables, which invoke these all_* backing scans. Directly \
+teaching agents to call implementation functions would undermine the table abstraction; the \
+hermetic Haybarn E2E test separately executes every backing scan.\
+""" },
+]

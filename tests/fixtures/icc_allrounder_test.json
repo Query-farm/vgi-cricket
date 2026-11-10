@@ -1,0 +1,100 @@
+{
+ "data": {
+  "bat-rank": {
+   "last_updated": "2026-11-04T04:06+05:30",
+   "rank-type": "test-allrounder",
+   "rank_date": "2026-11-03",
+   "rank": [
+    {
+     "no": "1",
+     "change": "( - )",
+     "Player-name": "Marco Jansen",
+     "Player_id": "69409",
+     "Country_id": "7",
+     "Country_name": "South Africa",
+     "Country": "SA",
+     "team_id": "7",
+     "team_name": "South Africa",
+     "team_url": "https://www.icc-cricket.com/teams/7/south-africa-men",
+     "Points": "463",
+     "careerbest": "463 v Australia at Cape Town 2026",
+     "rankdate": "2026-11-03",
+     "Player_url": "https://www.icc-cricket.com/rankings/69409/marco-jansen"
+    },
+    {
+     "no": "2",
+     "change": "( - )",
+     "Player-name": "Ravindra Jadeja",
+     "Player_id": "3850",
+     "Country_id": "4",
+     "Country_name": "India",
+     "Country": "IND",
+     "team_id": "4",
+     "team_name": "India",
+     "team_url": "https://www.icc-cricket.com/teams/4/india-men",
+     "Points": "422",
+     "careerbest": "475 v Bangladesh at Chennai 2024",
+     "rankdate": "2026-11-03",
+     "Player_url": "https://www.icc-cricket.com/rankings/3850/ravindra-jadeja"
+    },
+    {
+     "no": "3",
+     "change": "(+1)",
+     "Player-name": "Wiaan Mulder",
+     "Player_id": "65525",
+     "Country_id": "7",
+     "Country_name": "South Africa",
+     "Country": "SA",
+     "team_id": "7",
+     "team_name": "South Africa",
+     "team_url": "https://www.icc-cricket.com/teams/7/south-africa-men",
+     "Points": "320",
+     "careerbest": "320 v Australia at Cape Town 2026",
+     "rankdate": "2026-11-03",
+     "Player_url": "https://www.icc-cricket.com/rankings/65525/wiaan-mulder"
+    },
+    {
+     "no": "14",
+     "change": "(-2)",
+     "Player-name": "Kagiso Rabada",
+     "Player_id": "63611",
+     "Country_id": "7",
+     "Country_name": "South Africa",
+     "Country": "SA",
+     "team_id": "7",
+     "team_name": "South Africa",
+     "team_url": "https://www.icc-cricket.com/teams/7/south-africa-men",
+     "Points": "190",
+     "careerbest": "225 v Australia at Cape Town 2018",
+     "rankdate": "2026-11-03",
+     "Player_url": "https://www.icc-cricket.com/rankings/63611/kagiso-rabada"
+    },
+    {
+     "no": "=",
+     "change": "(+1)",
+     "Player-name": "Axar Patel",
+     "Player_id": "62576",
+     "Country_id": "4",
+     "Country_name": "India",
+     "Country": "IND",
+     "team_id": "4",
+     "team_name": "India",
+     "team_url": "https://www.icc-cricket.com/teams/4/india-men",
+     "Points": "190",
+     "careerbest": "316 v Australia at Ahmedabad 2023",
+     "rankdate": "2026-11-03",
+     "Player_url": "https://www.icc-cricket.com/rankings/62576/axar-patel"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "app_status_code": 1,
+  "message": "Success",
+  "pagination": false,
+  "count": 0,
+  "timestamp": {
+   "utc_time": "11/10/2026 5:35:12 PM"
+  }
+ }
+}

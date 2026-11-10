@@ -1,0 +1,7903 @@
+{
+ "rosters": [
+  {
+   "homeAway": "home",
+   "winner": true,
+   "team": {
+    "id": "335970",
+    "abbreviation": "RCB",
+    "displayName": "Royal Challengers Bengaluru",
+    "color": "#f10920",
+    "logos": [
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/335970.png",
+      "rel": [
+       "full",
+       "default"
+      ]
+     }
+    ]
+   },
+   "roster": [
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "851403",
+      "uid": "s:200~a:851403",
+      "name": "Venkatesh Iyer",
+      "lastName": "Iyer",
+      "shortName": "Venkatesh Iyer",
+      "fullName": "Venkatesh Rajasekaran Iyer",
+      "displayName": "Venkatesh Iyer",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR",
+       "id": "AR",
+       "name": "Allrounder",
+       "abbreviation": "AR",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR"
+       }
+      },
+      "battingName": "VR Iyer",
+      "fieldingName": "Iyer"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 16,
+            "displayValue": "16"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 25,
+            "displayValue": "25"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 32,
+            "displayValue": "32"
+           },
+           {
+            "name": "sixes",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "strikeRate",
+            "value": 200,
+            "displayValue": "200"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 1,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/940973",
+           "displayName": "Mohammed Siraj",
+           "firstName": "Mohammed",
+           "fullName": "Mohammed Siraj",
+           "id": "940973",
+           "lastName": "Siraj"
+          },
+          "details": {
+           "id": "53206731",
+           "text": "<strong>Straight to mid-on but Venky Iyer has done his job!</strong> Siraj cramps the batter for room who was once again backing away. He goes deep in the crease but Siraj rushes him for pace with the good length ball at 147.5kph on leg. He mistimes to Rabada who makes no mistake",
+           "shortText": "Mohammed Siraj to Iyer, OUT",
+           "innings": {
+            "wickets": 1,
+            "runs": 62
+           },
+           "over": {
+            "overs": 4.3
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/550215",
+             "displayName": "Kagiso Rabada",
+             "firstName": "Kagiso",
+             "fullName": "Kagiso Rabada",
+             "id": "550215",
+             "lastName": "Rabada"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Rabada b Mohammed Siraj"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": true,
+     "activeName": "striker",
+     "starter": true,
+     "athlete": {
+      "id": "253802",
+      "uid": "s:200~a:253802",
+      "name": "Virat Kohli",
+      "lastName": "Kohli",
+      "shortName": "Kohli",
+      "fullName": "Virat Kohli",
+      "displayName": "Virat Kohli",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT",
+       "id": "TBT",
+       "name": "Top-order batter",
+       "abbreviation": "TBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT"
+       }
+      },
+      "battingName": "V Kohli",
+      "fieldingName": "Kohli"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 42,
+            "displayValue": "42"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "dismissal",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "not out",
+            "displayValue": "not out"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fours",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 102,
+            "displayValue": "102"
+           },
+           {
+            "name": "notouts",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 75,
+            "displayValue": "75"
+           },
+           {
+            "name": "sixes",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "strikeRate",
+            "value": 178.57,
+            "displayValue": "178.57"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 2,
+         "outDetails": {
+          "dismissalCard": "not out",
+          "fielders": [],
+          "shortText": "not out"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "1119026",
+      "uid": "s:200~a:1119026",
+      "name": "Devdutt Padikkal",
+      "lastName": "Padikkal",
+      "shortName": "Padikkal",
+      "fullName": "Devdutt Padikkal",
+      "displayName": "Devdutt Padikkal",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT",
+       "id": "TBT",
+       "name": "Top-order batter",
+       "abbreviation": "TBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT"
+       }
+      },
+      "battingName": "D Padikkal",
+      "fieldingName": "Padikkal"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 25,
+            "displayValue": "25"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 3,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/550215",
+           "displayName": "Kagiso Rabada",
+           "firstName": "Kagiso",
+           "fullName": "Kagiso Rabada",
+           "id": "550215",
+           "lastName": "Rabada"
+          },
+          "details": {
+           "id": "53206740",
+           "text": "<strong>CARVED to deep third!</strong> That is wicket No. 29 for Rabada which wins him the purple cap. He gives himself room but Rabada bowls this fullish and outside off. Padikkal has to reach for it, and he ends up slicing it to the left of Arshad, who runs to his left and takes a smart catch",
+           "shortText": "Rabada to Padikkal, OUT",
+           "innings": {
+            "wickets": 2,
+            "runs": 63
+           },
+           "over": {
+            "overs": 5.1
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1244751",
+             "displayName": "Arshad Khan",
+             "firstName": "Mohd",
+             "fullName": "Mohd Arshad Khan",
+             "id": "1244751",
+             "lastName": "Khan"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Arshad Khan b Rabada"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": true,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "823703",
+      "uid": "s:200~a:823703",
+      "name": "Rajat Patidar",
+      "lastName": "Patidar",
+      "shortName": "Patidar",
+      "fullName": "Rajat Manohar Patidar",
+      "displayName": "Rajat Patidar",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT",
+       "id": "TBT",
+       "name": "Top-order batter",
+       "abbreviation": "TBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT"
+       }
+      },
+      "battingName": "RM Patidar",
+      "fieldingName": "Patidar"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 13,
+            "displayValue": "13"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 18,
+            "displayValue": "18"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 15,
+            "displayValue": "15"
+           },
+           {
+            "name": "sixes",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "strikeRate",
+            "value": 115.38,
+            "displayValue": "115.38"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 4,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/793463",
+           "displayName": "Rashid Khan",
+           "firstName": "Rashid",
+           "fullName": "Rashid Khan Arman",
+           "id": "793463",
+           "lastName": "Arman"
+          },
+          "details": {
+           "id": "53206785",
+           "text": "<strong>Rabada takes soft steps back... and takes the catch on the long-on boundary!</strong> He raised his right leg upon taking it but the back leg was still after he took it above head. Spin-hitter Patidar saw a full ball, got on one knee and swept it from outside off. Got a lot of height on it, nearly got it over. Rashid strikes second ball",
+           "shortText": "Rashid Khan to Patidar, OUT",
+           "innings": {
+            "wickets": 3,
+            "runs": 89
+           },
+           "over": {
+            "overs": 8.2
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/550215",
+             "displayName": "Kagiso Rabada",
+             "firstName": "Kagiso",
+             "fullName": "Kagiso Rabada",
+             "id": "550215",
+             "lastName": "Rabada"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Rabada b Rashid Khan"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "471342",
+      "uid": "s:200~a:471342",
+      "name": "Krunal Pandya",
+      "lastName": "Pandya",
+      "shortName": "Krunal",
+      "fullName": "Krunal Himanshu Pandya",
+      "displayName": "Krunal Pandya",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR",
+       "id": "AR",
+       "name": "Allrounder",
+       "abbreviation": "AR",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR"
+       }
+      },
+      "battingName": "KH Pandya",
+      "fieldingName": "Pandya"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 23,
+            "displayValue": "23"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "economyRate",
+            "value": 5.75,
+            "displayValue": "5.75"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "dismissal",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "lbw",
+            "displayValue": "lbw"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 50,
+            "displayValue": "50"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 5,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/793463",
+           "displayName": "Rashid Khan",
+           "firstName": "Rashid",
+           "fullName": "Rashid Khan Arman",
+           "id": "793463",
+           "lastName": "Arman"
+          },
+          "details": {
+           "id": "53206789",
+           "text": "<strong>And Rashid has brought it back to life!</strong> Krunal has a chat with Kohli but doesn't review! Loopy full ball on off, Krunal moves across to off, clears the front leg out of the way and goes for a hard sweep. The legbreak spins in a touch to beat bat and hit the back leg in front of off. Krunal swipes his bat in frustration on the way back, Rashid and co celebrate. Hawk-Eye shows that'd have smashed middle and off",
+           "shortText": "Rashid Khan to Pandya, OUT",
+           "innings": {
+            "wickets": 4,
+            "runs": 91
+           },
+           "over": {
+            "overs": 8.5
+           }
+          },
+          "dismissalCard": "lbw",
+          "fielders": [],
+          "shortText": "lbw b Rashid Khan"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "892749",
+      "uid": "s:200~a:892749",
+      "name": "Tim David",
+      "lastName": "David",
+      "shortName": "David",
+      "fullName": "Timothy Hays David",
+      "displayName": "Tim David",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/MBT",
+       "id": "MBT",
+       "name": "Middle-order batter",
+       "abbreviation": "MBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/MBT"
+       }
+      },
+      "battingName": "TH David",
+      "fieldingName": "David"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 17,
+            "displayValue": "17"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 28,
+            "displayValue": "28"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "sixes",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "strikeRate",
+            "value": 141.17,
+            "displayValue": "141.17"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 6,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1244751",
+           "displayName": "Arshad Khan",
+           "firstName": "Mohd",
+           "fullName": "Mohd Arshad Khan",
+           "id": "1244751",
+           "lastName": "Khan"
+          },
+          "details": {
+           "id": "53206871",
+           "text": "That looks out. Arshad convinced and then in disbelief. Buttler threw the ball up. Quick sign to review from GT. 144ks length ball landed on leg and finished on middle and off. David was in the crease, front leg slightly away as he looked to defend straight. The ball took a feather while angling away, Ultra-Edge confirms. Ball still seaming, Sid Monga says. David gets a pat on the shoulder from Kohli",
+           "shortText": "Arshad Khan to David, OUT",
+           "innings": {
+            "wickets": 5,
+            "runs": 132
+           },
+           "over": {
+            "overs": 13.6
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/308967",
+             "displayName": "Jos Buttler",
+             "firstName": "Joseph",
+             "fullName": "Joseph Charles Buttler",
+             "id": "308967",
+             "lastName": "Buttler"
+            },
+            "displayOrder": 0,
+            "isKeeper": 1,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c &dagger;Buttler b Arshad Khan"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": true,
+     "activeName": "non-striker",
+     "starter": true,
+     "athlete": {
+      "id": "721867",
+      "uid": "s:200~a:721867",
+      "name": "Jitesh Sharma",
+      "lastName": "Sharma",
+      "shortName": "Jitesh Sharma",
+      "fullName": "Jitesh Mohan Sharma",
+      "displayName": "Jitesh Sharma",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/WBT",
+       "id": "WBT",
+       "name": "Wicketkeeper batter",
+       "abbreviation": "WBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/WBT"
+       }
+      },
+      "battingName": "JM Sharma",
+      "fieldingName": "Sharma"
+     },
+     "position": {
+      "id": "WK",
+      "name": "Wicketkeeper",
+      "abbreviation": "WK"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 14,
+            "displayValue": "14"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "dismissal",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "not out",
+            "displayValue": "not out"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 22,
+            "displayValue": "22"
+           },
+           {
+            "name": "notouts",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 11,
+            "displayValue": "11"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 78.57,
+            "displayValue": "78.57"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 7,
+         "outDetails": {
+          "dismissalCard": "not out",
+          "fielders": [],
+          "shortText": "not out"
+         }
+        }
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "677077",
+      "uid": "s:200~a:677077",
+      "name": "Romario Shepherd",
+      "lastName": "Shepherd",
+      "shortName": "Shepherd",
+      "fullName": "Romario Shepherd",
+      "displayName": "Romario Shepherd",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA",
+       "id": "BLA",
+       "name": "Bowling allrounder",
+       "abbreviation": "BLA",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA"
+       }
+      },
+      "battingName": "R Shepherd",
+      "fieldingName": "Shepherd"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "326016",
+      "uid": "s:200~a:326016",
+      "name": "Bhuvneshwar Kumar",
+      "lastName": "Kumar",
+      "shortName": "Bhuvneshwar",
+      "fullName": "Bhuvneshwar Kumar Singh",
+      "displayName": "Bhuvneshwar Kumar",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "B Kumar",
+      "fieldingName": "Kumar"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 29,
+            "displayValue": "29"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 11,
+            "displayValue": "11"
+           },
+           {
+            "name": "economyRate",
+            "value": 7.25,
+            "displayValue": "7.25"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "288284",
+      "uid": "s:200~a:288284",
+      "name": "Josh Hazlewood",
+      "lastName": "Hazlewood",
+      "shortName": "Hazlewood",
+      "fullName": "Josh Reginald Hazlewood",
+      "displayName": "Josh Hazlewood",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "JR Hazlewood",
+      "fieldingName": "Hazlewood"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 37,
+            "displayValue": "37"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "economyRate",
+            "value": 9.25,
+            "displayValue": "9.25"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "wides",
+            "value": 1,
+            "displayValue": "1"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 10,
+            "displayValue": "10"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "1161489",
+      "uid": "s:200~a:1161489",
+      "name": "Rasikh Salam",
+      "lastName": "Salam",
+      "shortName": "",
+      "fullName": "Rasikh Salam Dar",
+      "displayName": "Rasikh Salam",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "Rasikh Salam",
+      "fieldingName": "Rasikh Salam"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 27,
+            "displayValue": "27"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "economyRate",
+            "value": 6.75,
+            "displayValue": "6.75"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 11,
+            "displayValue": "11"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "547766",
+      "uid": "s:200~a:547766",
+      "name": "Jacob Duffy",
+      "lastName": "Duffy",
+      "shortName": "Duffy",
+      "fullName": "Jacob Andrew Duffy",
+      "displayName": "Jacob Duffy",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "JA Duffy",
+      "fieldingName": "Duffy"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 38,
+            "displayValue": "38"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "economyRate",
+            "value": 9.5,
+            "displayValue": "9.5"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 3,
+            "displayValue": "3"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    }
+   ]
+  },
+  {
+   "homeAway": "away",
+   "winner": false,
+   "team": {
+    "id": "1298769",
+    "abbreviation": "GT",
+    "displayName": "Gujarat Titans",
+    "color": "#334779",
+    "logos": [
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/cricket/500/1298769.png",
+      "rel": [
+       "full",
+       "default"
+      ]
+     }
+    ]
+   },
+   "roster": [
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "1151288",
+      "uid": "s:200~a:1151288",
+      "name": "Sai Sudharsan",
+      "lastName": "Sudharsan",
+      "shortName": "",
+      "fullName": "Bhardwaj Sai Sudharsan",
+      "displayName": "Sai Sudharsan",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT",
+       "id": "TBT",
+       "name": "Top-order batter",
+       "abbreviation": "TBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT"
+       }
+      },
+      "battingName": "B Sai Sudharsan",
+      "fieldingName": "Sai Sudharsan"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 20,
+            "displayValue": "20"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 100,
+            "displayValue": "100"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 1,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/326016",
+           "displayName": "Bhuvneshwar Kumar",
+           "firstName": "Bhuvneshwar",
+           "fullName": "Bhuvneshwar Kumar Singh",
+           "id": "326016",
+           "lastName": "Singh"
+          },
+          "details": {
+           "id": "53206305",
+           "text": "<strong>The bouncer has brought about Sai Sudharsan's downfall. </strong> Banged in short outside off stump, a very well-directed short ball from Bhuvi. Sai Sudharsan has to fetch that 138.6kph delivery from outside off, he gets a top-edge with the ball ballooning to the short fine leg region. Jitesh runs behind it and takes a comfortable catch",
+           "shortText": "Kumar to Sai Sudharsan, OUT",
+           "innings": {
+            "wickets": 2,
+            "runs": 26
+           },
+           "over": {
+            "overs": 3.4
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/721867",
+             "displayName": "Jitesh Sharma",
+             "firstName": "Jitesh",
+             "fullName": "Jitesh Mohan Sharma",
+             "id": "721867",
+             "lastName": "Sharma"
+            },
+            "displayOrder": 0,
+            "isKeeper": 1,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c &dagger;Sharma b Kumar"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": true,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "1070173",
+      "uid": "s:200~a:1070173",
+      "name": "Shubman Gill",
+      "lastName": "Gill",
+      "shortName": "Gill",
+      "fullName": "Shubman Gill",
+      "displayName": "Shubman Gill",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT",
+       "id": "TBT",
+       "name": "Top-order batter",
+       "abbreviation": "TBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/TBT"
+       }
+      },
+      "battingName": "Shubman Gill",
+      "fieldingName": "Shubman Gill"
+     },
+     "position": {
+      "id": "UKN",
+      "name": "Unknown",
+      "abbreviation": "UKN"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 13,
+            "displayValue": "13"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 10,
+            "displayValue": "10"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 125,
+            "displayValue": "125"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 2,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/288284",
+           "displayName": "Josh Hazlewood",
+           "firstName": "Josh",
+           "fullName": "Josh Reginald Hazlewood",
+           "id": "288284",
+           "lastName": "Hazlewood"
+          },
+          "details": {
+           "id": "53206243",
+           "text": "<b>Straight up, straight up and Gill is out of here.</b> The aggression of Gill goes against him this time around. Back of a length ball outside off, Gill stays inside his crease this time to the 142kph delivery. He looks to go across the line, gets it on the higher part of the bat, with the ball spooning up. Patidar runs to his right from mid-off and takes a good catch",
+           "shortText": "Hazlewood to Shubman Gill, OUT",
+           "innings": {
+            "wickets": 1,
+            "runs": 22
+           },
+           "over": {
+            "overs": 2.2
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/823703",
+             "displayName": "Rajat Patidar",
+             "firstName": "Rajat",
+             "fullName": "Rajat Manohar Patidar",
+             "id": "823703",
+             "lastName": "Patidar"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Patidar b Hazlewood"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "1292506",
+      "uid": "s:200~a:1292506",
+      "name": "Nishant Sindhu",
+      "lastName": "Sindhu",
+      "shortName": "Sindhu",
+      "fullName": "Nishant Sindhu",
+      "displayName": "Nishant Sindhu",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR",
+       "id": "AR",
+       "name": "Allrounder",
+       "abbreviation": "AR",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/AR"
+       }
+      },
+      "battingName": "N Sindhu",
+      "fieldingName": "Sindhu"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 18,
+            "displayValue": "18"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 26,
+            "displayValue": "26"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 20,
+            "displayValue": "20"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 111.11,
+            "displayValue": "111.11"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 3,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1161489",
+           "displayName": "Rasikh Salam",
+           "firstName": "Rasikh",
+           "fullName": "Rasikh Salam Dar",
+           "id": "1161489",
+           "lastName": "Dar"
+          },
+          "details": {
+           "id": "53206435",
+           "text": "<b>Straight down Padikkal's throat at long-on. Another one bites the dust as Sindhu walks back.</b> Rising back of a length ball on middle at 132kph. He charges down the track but is not in control as he goes for the pull. Also loses his balance in playing that shot with the ball only going as far as DDP who is stationed perfectly.",
+           "shortText": "Rasikh Salam to Sindhu, OUT",
+           "innings": {
+            "wickets": 3,
+            "runs": 55
+           },
+           "over": {
+            "overs": 7.6
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1119026",
+             "displayName": "Devdutt Padikkal",
+             "firstName": "Devdutt",
+             "fullName": "Devdutt Padikkal",
+             "id": "1119026",
+             "lastName": "Padikkal"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Padikkal b Rasikh Salam"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "308967",
+      "uid": "s:200~a:308967",
+      "name": "Jos Buttler",
+      "lastName": "Buttler",
+      "shortName": "Buttler",
+      "fullName": "Joseph Charles Buttler",
+      "displayName": "Jos Buttler",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/WBT",
+       "id": "WBT",
+       "name": "Wicketkeeper batter",
+       "abbreviation": "WBT",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/WBT"
+       }
+      },
+      "battingName": "JC Buttler",
+      "fieldingName": "Buttler"
+     },
+     "position": {
+      "id": "WK",
+      "name": "Wicketkeeper",
+      "abbreviation": "WK"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 23,
+            "displayValue": "23"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "dismissal",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "st",
+            "displayValue": "st"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 40,
+            "displayValue": "40"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 19,
+            "displayValue": "19"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 82.6,
+            "displayValue": "82.6"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 4,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/471342",
+           "displayName": "Krunal Pandya",
+           "firstName": "Krunal",
+           "fullName": "Krunal Himanshu Pandya",
+           "id": "471342",
+           "lastName": "Pandya"
+          },
+          "details": {
+           "id": "53206512",
+           "text": "<strong>Five-head Krunal outfoxes Buttler!</strong> Sees him dance down, so he yorks him wide. 114ks, lands in line with Buttler's back-knee after beating bat. Buttler's upper body froze late as he reached out, trying to scythe the ball away. Too late and Krunal celebrates with intensity. GT's big three toppled!",
+           "shortText": "Pandya to Buttler, OUT",
+           "innings": {
+            "wickets": 4,
+            "runs": 73
+           },
+           "over": {
+            "overs": 12.1
+           }
+          },
+          "dismissalCard": "st",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/721867",
+             "displayName": "Jitesh Sharma",
+             "firstName": "Jitesh",
+             "fullName": "Jitesh Mohan Sharma",
+             "id": "721867",
+             "lastName": "Sharma"
+            },
+            "displayOrder": 0,
+            "isKeeper": 1,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "st &dagger;Sharma b Pandya"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "719715",
+      "uid": "s:200~a:719715",
+      "name": "Washington Sundar",
+      "lastName": "Sundar",
+      "shortName": "Sundar",
+      "fullName": "Washington Sundar",
+      "displayName": "Washington Sundar",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA",
+       "id": "BLA",
+       "name": "Bowling allrounder",
+       "abbreviation": "BLA",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA"
+       }
+      },
+      "battingName": "Washington Sundar",
+      "fieldingName": "Washington Sundar"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 37,
+            "displayValue": "37"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "dismissal",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "not out",
+            "displayValue": "not out"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fours",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 66,
+            "displayValue": "66"
+           },
+           {
+            "name": "notouts",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 50,
+            "displayValue": "50"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 135.13,
+            "displayValue": "135.13"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 5,
+         "outDetails": {
+          "dismissalCard": "not out",
+          "fielders": [],
+          "shortText": "not out"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": true,
+     "activeName": "current bowler",
+     "starter": true,
+     "athlete": {
+      "id": "1244751",
+      "uid": "s:200~a:1244751",
+      "name": "Arshad Khan",
+      "lastName": "Khan",
+      "shortName": "",
+      "fullName": "Mohd Arshad Khan",
+      "displayName": "Arshad Khan",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "Arshad Khan",
+      "fieldingName": "Arshad Khan"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 10,
+            "displayValue": "10"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 15,
+            "displayValue": "15"
+           },
+           {
+            "name": "sixes",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "strikeRate",
+            "value": 250,
+            "displayValue": "250"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 6,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/288284",
+           "displayName": "Josh Hazlewood",
+           "firstName": "Josh",
+           "fullName": "Josh Reginald Hazlewood",
+           "id": "288284",
+           "lastName": "Hazlewood"
+          },
+          "details": {
+           "id": "53206558",
+           "text": "<strong>Forget Ben, It's Josh cutting off Arshad's attack</strong>. Trademark back-of-length ball skidded and rushed Arshad. He was back in the crease, swivelling for the pull. Ball came under belly-height. He got cramped - upper-body bent down, elbows weren't extended and the top edge went straight to short fine leg.",
+           "shortText": "Hazlewood to Arshad Khan, OUT",
+           "innings": {
+            "wickets": 5,
+            "runs": 99
+           },
+           "over": {
+            "overs": 14.1
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1161489",
+             "displayName": "Rasikh Salam",
+             "firstName": "Rasikh",
+             "fullName": "Rasikh Salam Dar",
+             "id": "1161489",
+             "lastName": "Dar"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Rasikh Salam b Hazlewood"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 32,
+            "displayValue": "32"
+           },
+           {
+            "name": "dismissals",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dots",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "economyRate",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "423838",
+      "uid": "s:200~a:423838",
+      "name": "Rahul Tewatia",
+      "lastName": "Tewatia",
+      "shortName": "Tewatia",
+      "fullName": "Rahul Tewatia",
+      "displayName": "Rahul Tewatia",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA",
+       "id": "BLA",
+       "name": "Bowling allrounder",
+       "abbreviation": "BLA",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA"
+       }
+      },
+      "battingName": "R Tewatia",
+      "fieldingName": "Tewatia"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 140,
+            "displayValue": "140"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 7,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1161489",
+           "displayName": "Rasikh Salam",
+           "firstName": "Rasikh",
+           "fullName": "Rasikh Salam Dar",
+           "id": "1161489",
+           "lastName": "Dar"
+          },
+          "details": {
+           "id": "53206585",
+           "text": "<strong>Tewatia goes and the crowd go up bigtime!</strong> 131ks length ball angling in towards fourth stump from around the wicket. The cross-seamer seemed to lose pace off the pitch and bounced a touch low. Tewatia extended his arms and looked to lift it over mid-on with a mostly horizontal bat. Ball hit low on the bat and Patidar ran back to take a rather easy catch. Rasikh is pumped, he's had a great game so far",
+           "shortText": "Rasikh Salam to Tewatia, OUT",
+           "innings": {
+            "wickets": 6,
+            "runs": 115
+           },
+           "over": {
+            "overs": 16.1
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/823703",
+             "displayName": "Rajat Patidar",
+             "firstName": "Rajat",
+             "fullName": "Rajat Manohar Patidar",
+             "id": "823703",
+             "lastName": "Patidar"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Patidar b Rasikh Salam"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "economyRate",
+            "value": 0,
+            "displayValue": "-"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "391485",
+      "uid": "s:200~a:391485",
+      "name": "Jason Holder",
+      "lastName": "Holder",
+      "shortName": "Holder",
+      "fullName": "Jason Omar Holder",
+      "displayName": "Jason Holder",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA",
+       "id": "BLA",
+       "name": "Bowling allrounder",
+       "abbreviation": "BLA",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA"
+       }
+      },
+      "battingName": "JO Holder",
+      "fieldingName": "Holder"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 13,
+            "displayValue": "13"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 140,
+            "displayValue": "140"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 8,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/326016",
+           "displayName": "Bhuvneshwar Kumar",
+           "firstName": "Bhuvneshwar",
+           "fullName": "Bhuvneshwar Kumar Singh",
+           "id": "326016",
+           "lastName": "Singh"
+          },
+          "details": {
+           "id": "53206623",
+           "text": "Top edge. Will there be confusion? No, Hazlewood keeps the keeper at bay and allows <strong>Bhuvi to get to 28 wickets this season</strong>! 128ks short ball around fifth stump, seam up. Seemed slow off the pitch but bounced good. Holder was square-on, jumped and looked to drag it across with a pull. Edged it right back, Jitesh ran straight but Hazlewood ran across from short third and took it. Seemed to have made the call early as Jitesh slowed down",
+           "shortText": "Kumar to Holder, OUT",
+           "innings": {
+            "wickets": 7,
+            "runs": 142
+           },
+           "over": {
+            "overs": 18.3
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/288284",
+             "displayName": "Josh Hazlewood",
+             "firstName": "Josh",
+             "fullName": "Josh Reginald Hazlewood",
+             "id": "288284",
+             "lastName": "Hazlewood"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Hazlewood b Kumar"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 16,
+            "displayValue": "16"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 5,
+            "displayValue": "5"
+           },
+           {
+            "name": "economyRate",
+            "value": 8,
+            "displayValue": "8"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": true,
+     "activeName": "previous bowler",
+     "starter": true,
+     "athlete": {
+      "id": "793463",
+      "uid": "s:200~a:793463",
+      "name": "Rashid Khan",
+      "lastName": "Khan",
+      "shortName": "Rashid Khan",
+      "fullName": "Rashid Khan Arman",
+      "displayName": "Rashid Khan",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA",
+       "id": "BLA",
+       "name": "Bowling allrounder",
+       "abbreviation": "BLA",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BLA"
+       }
+      },
+      "battingName": "Rashid Khan",
+      "fieldingName": "Rashid Khan"
+     },
+     "position": {
+      "id": "AR",
+      "name": "Allrounder",
+      "abbreviation": "AR"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "dismissal",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "c",
+            "displayValue": "c"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "sixes",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "strikeRate",
+            "value": 233.33,
+            "displayValue": "233.33"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 9,
+         "outDetails": {
+          "bowler": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/1161489",
+           "displayName": "Rasikh Salam",
+           "firstName": "Rasikh",
+           "fullName": "Rasikh Salam Dar",
+           "id": "1161489",
+           "lastName": "Dar"
+          },
+          "details": {
+           "id": "53206635",
+           "text": "Rashid goes again... can't clear the boundary this time! Went across the ground by pulling the scrambled-seam ball. 132ks. Bat went from slightly down to up, just over the shoulder. Got it a touch too high. Shepherd takes it to the right at deep-backward square",
+           "shortText": "Rasikh Salam to Rashid Khan, OUT",
+           "innings": {
+            "wickets": 8,
+            "runs": 151
+           },
+           "over": {
+            "overs": 19.2
+           }
+          },
+          "dismissalCard": "c",
+          "fielders": [
+           {
+            "athlete": {
+             "$ref": "http://new.core.espnuk.org/v2/sports/cricket/athletes/677077",
+             "displayName": "Romario Shepherd",
+             "firstName": "Romario",
+             "fullName": "Romario Shepherd",
+             "id": "677077",
+             "lastName": "Shepherd"
+            },
+            "displayOrder": 0,
+            "isKeeper": 0,
+            "isSubstitute": 0
+           }
+          ],
+          "shortText": "c Shepherd b Rasikh Salam"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 25,
+            "displayValue": "25"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "economyRate",
+            "value": 6.25,
+            "displayValue": "6.25"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "550215",
+      "uid": "s:200~a:550215",
+      "name": "Kagiso Rabada",
+      "lastName": "Rabada",
+      "shortName": "Rabada",
+      "fullName": "Kagiso Rabada",
+      "displayName": "Kagiso Rabada",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "K Rabada",
+      "fieldingName": "Rabada"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "batted",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "battingPosition",
+            "value": 10,
+            "displayValue": "10"
+           },
+           {
+            "name": "dismissal",
+            "value": 12,
+            "displayValue": "12"
+           },
+           {
+            "name": "dismissalCard",
+            "value": "not out",
+            "displayValue": "not out"
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "notouts",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 100,
+            "displayValue": "100"
+           }
+          ]
+         }
+        ],
+        "batting": {
+         "active": false,
+         "order": 10,
+         "outDetails": {
+          "dismissalCard": "not out",
+          "fielders": [],
+          "shortText": "not out"
+         }
+        }
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 18,
+            "displayValue": "18"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 44,
+            "displayValue": "44"
+           },
+           {
+            "name": "dismissals",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "dots",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "economyRate",
+            "value": 14.66,
+            "displayValue": "14.66"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "940973",
+      "uid": "s:200~a:940973",
+      "name": "Mohammed Siraj",
+      "lastName": "Siraj",
+      "shortName": "Siraj",
+      "fullName": "Mohammed Siraj",
+      "displayName": "Mohammed Siraj",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "Mohammed Siraj",
+      "fieldingName": "Mohammed Siraj"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 11,
+            "displayValue": "11"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 24,
+            "displayValue": "24"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 36,
+            "displayValue": "36"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 10,
+            "displayValue": "10"
+           },
+           {
+            "name": "economyRate",
+            "value": 9,
+            "displayValue": "9"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 4,
+            "displayValue": "4"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "wides",
+            "value": 1,
+            "displayValue": "1"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    },
+    {
+     "captain": false,
+     "active": false,
+     "activeName": "player",
+     "starter": true,
+     "athlete": {
+      "id": "917159",
+      "uid": "s:200~a:917159",
+      "name": "Prasidh Krishna",
+      "lastName": "Krishna",
+      "shortName": "Prasidh",
+      "fullName": "Muralikrishna Prasidh Krishna",
+      "displayName": "Prasidh Krishna",
+      "position": {
+       "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL",
+       "id": "BL",
+       "name": "Bowler",
+       "abbreviation": "BL",
+       "leaf": true,
+       "parent": {
+        "$ref": "http://new.core.espnuk.org/v2/sports/cricket/positions/BL"
+       }
+      },
+      "battingName": "M Prasidh Krishna",
+      "fieldingName": "Prasidh Krishna"
+     },
+     "position": {
+      "id": "BL",
+      "name": "Bowler",
+      "abbreviation": "BL"
+     },
+     "linescores": [
+      {
+       "period": 1,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "ballsFaced",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "batted",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "battingPosition",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissal",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dismissalCard",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "ducks",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fielderSub",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fiftyPlus",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fours",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "hundreds",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "innings",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "minutes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "notouts",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "outs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "retiredDescription",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "runs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "sixes",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "strikeRate",
+            "value": 0,
+            "displayValue": "-"
+           }
+          ]
+         }
+        ]
+       }
+      },
+      {
+       "period": 2,
+       "mediaId": 0,
+       "statistics": {
+        "id": "0",
+        "name": "Total",
+        "abbreviation": "Total",
+        "categories": [
+         {
+          "name": "general",
+          "stats": [
+           {
+            "name": "balls",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "bowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "bowlingPosition",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "bpo",
+            "value": 6,
+            "displayValue": "6"
+           },
+           {
+            "name": "caught",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtFielder",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "caughtKeeper",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "conceded",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "dismissals",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "dots",
+            "value": 3,
+            "displayValue": "3"
+           },
+           {
+            "name": "economyRate",
+            "value": 7,
+            "displayValue": "7"
+           },
+           {
+            "name": "fielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "fiveWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "fourPlusWickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "foursConceded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "illegalOverLimit",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "inningsBowled",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsFielded",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "inningsNumber",
+            "value": 2,
+            "displayValue": "2"
+           },
+           {
+            "name": "maidens",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "noballs",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "overs",
+            "value": 1,
+            "displayValue": "1"
+           },
+           {
+            "name": "sixesConceded",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "stumped",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "tenWickets",
+            "value": 0,
+            "displayValue": ""
+           },
+           {
+            "name": "wickets",
+            "value": 0,
+            "displayValue": "0"
+           },
+           {
+            "name": "wides",
+            "value": 0,
+            "displayValue": "0"
+           }
+          ]
+         }
+        ]
+       }
+      }
+     ],
+     "subbedIn": false,
+     "subbedOut": false
+    }
+   ]
+  }
+ ],
+ "meta": {
+  "gameSwitcherEnabled": false,
+  "gameState": "post"
+ }
+}

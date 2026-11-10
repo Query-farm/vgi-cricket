@@ -1,0 +1,128 @@
+# Private graders for the public vgi.agent_test_tasks prompts declared in the catalog.
+# Completed-season Cricsheet, ESPN, and ECB results are stable, so those tasks grade by
+# exact comparison with reference_sql. Rankings and live match lists change daily, so
+# those tasks grade with check_sql assertions instead of an exact-compare reference.
+tasks:
+  - name: ipl_2026_final_batting_card
+    reference_sql: >-
+      SELECT b.innings_number, b.batting_position, b.batter, p.key_cricinfo, b.runs, b.balls,
+             b.dismissal_kind
+      FROM cricket.main.batting_scorecard('ipl', season := '2026') b
+      JOIN cricket.main.matches('ipl', season := '2026') m USING (match_id)
+      LEFT JOIN cricket.main.people p ON p.person_id = b.batter_id
+      WHERE m.stage = 'Final'
+      ORDER BY b.innings_number, b.batting_position
+    unordered: false
+    ignore_column_names: true
+    success_criteria: >-
+      Finds the final through matches() (stage = 'Final'), reads its batting_scorecard rows in
+      batting order, and joins people to attach each batter's ESPNcricinfo id.
+
+  - name: ipl_2026_final_innings_and_bowling
+    reference_sql: >-
+      SELECT i.innings_number, i.batting_team, i.runs, i.wickets, i.overs,
+             b.bowler AS best_bowler, b.wickets AS best_bowler_wickets,
+             b.runs_conceded AS best_bowler_runs, v.unique_name AS ground
+      FROM cricket.main.innings_summary('ipl', match_id := 1535465) i
+      JOIN (
+        SELECT innings_number, bowler, wickets, runs_conceded,
+               row_number() OVER (PARTITION BY innings_number ORDER BY wickets DESC, runs_conceded) AS rn
+        FROM cricket.main.bowling_scorecard('ipl', match_id := 1535465)
+      ) b ON b.innings_number = i.innings_number AND b.rn = 1
+      CROSS JOIN (
+        SELECT v.unique_name
+        FROM cricket.main.matches('ipl', season := '2026') m
+        JOIN cricket.main.venues v USING (venue_id)
+        WHERE m.match_id = 1535465
+      ) v
+      ORDER BY i.innings_number
+    ignore_column_names: true
+    success_criteria: >-
+      Uses innings_summary for totals, bowling_scorecard for the best figures in each innings, and
+      the venues register (joined on venue_id from matches) for the ground's canonical name.
+
+  - name: ipl_2026_final_over_by_over
+    reference_sql: >-
+      SELECT over_number, sum(runs_total) AS runs, sum(CASE WHEN is_wicket THEN 1 ELSE 0 END) AS wickets
+      FROM cricket.main.deliveries('ipl', match_id := 1535465)
+      WHERE innings_number = 2
+      GROUP BY over_number
+      ORDER BY over_number
+    ignore_column_names: true
+    success_criteria: >-
+      Aggregates deliveries for the second innings of match 1535465 by over_number.
+
+  - name: ipl_2026_points_table
+    reference_sql: >-
+      SELECT c.name, s.position, s.team, s.played, s.won, s.lost, s.no_result, s.points, s.net_run_rate
+      FROM cricket.main.standings('ipl', season := '2026') s
+      JOIN cricket.main.competitions c USING (competition)
+      ORDER BY s.position
+    ignore_column_names: true
+    success_criteria: >-
+      Uses standings() for IPL 2026 and orders by computed position (points, then net run rate).
+
+  - name: ipl_2026_leaders
+    reference_sql: >-
+      SELECT
+        (SELECT player FROM cricket.main.batting_stats('ipl', season := '2026')
+         ORDER BY runs DESC, player LIMIT 1) AS most_runs,
+        (SELECT player FROM cricket.main.bowling_stats('ipl', season := '2026')
+         ORDER BY wickets DESC, runs_conceded, player LIMIT 1) AS most_wickets
+    ignore_column_names: true
+    success_criteria: >-
+      Uses batting_stats ordered by runs and bowling_stats ordered by wickets for IPL 2026.
+
+  - name: hundred_2026_official_table
+    reference_sql: >-
+      SELECT s.position, s.team, s.played, s.won, s.lost, s.points, s.net_run_rate
+      FROM cricket.main.ecb_standings(76753) s
+      JOIN cricket.main.ecb_tournaments t ON t.tournament_id = s.tournament_id
+      WHERE t.name = 'The Hundred Men'
+      ORDER BY s.position
+    ignore_column_names: true
+    success_criteria: >-
+      Uses the official ECB table for tournament 76753 rather than a computed table.
+
+  - name: hundred_2026_final_result
+    reference_sql: >-
+      SELECT label, team1_score, team2_score, result
+      FROM cricket.main.ecb_fixtures(76753)
+      WHERE description = 'Final'
+    ignore_column_names: true
+    success_criteria: >-
+      Uses ecb_fixtures for tournament 76753 and returns the final's scores and result text.
+
+  - name: espn_final_top_performers
+    reference_sql: >-
+      SELECT
+        (SELECT name FROM cricket.main.schedule('ipl', season_year := 2026)
+         WHERE event_id = 1535465) AS fixture,
+        (SELECT player FROM cricket.main.live_batting_scorecard(1535465)
+         ORDER BY runs DESC, player LIMIT 1) AS top_scorer,
+        (SELECT player FROM cricket.main.live_bowling_scorecard(1535465)
+         ORDER BY wickets DESC, runs_conceded, player LIMIT 1) AS best_bowler,
+        (SELECT count(*) FROM cricket.main.live_commentary(1535465) WHERE is_wicket) AS wickets_fallen
+    ignore_column_names: true
+    success_criteria: >-
+      Uses schedule() to identify the final, the ESPN live batting and bowling scorecards for the
+      top performers, and live_commentary to count wicket balls.
+
+  - name: icc_rankings_now
+    check_sql: >-
+      SELECT (SELECT count(*) FROM cricket.main.current_team_rankings WHERE rank = 1) >= 5
+         AND (SELECT count(*) FROM cricket.main.current_player_rankings
+              WHERE format = 'test' AND discipline = 'bat') >= 50
+         AND (SELECT count(*) FROM cricket.main.team_rankings('test')) >= 9
+         AND (SELECT count(*) FROM cricket.main.player_rankings('test', 'bat')) >= 50
+    success_criteria: >-
+      Reports the rank-1 team for each of the five ICC formats from current_team_rankings (or
+      team_rankings) and the rank-1 Test batter from current_player_rankings (or player_rankings).
+
+  - name: whats_on_now
+    check_sql: >-
+      SELECT (SELECT count(*) FROM cricket.main.current_matches) >= 0
+         AND (SELECT count(*) FROM cricket.main.current_recent_matches) >= 0
+    success_criteria: >-
+      Lists in-progress matches from current_matches (state = 'in') and the last week's finished
+      results from current_recent_matches.

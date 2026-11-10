@@ -1,0 +1,112 @@
+{
+ "tournamentId": {
+  "id": 76738,
+  "name": "Rothesay County Championship",
+  "provisional": false,
+  "description": "Division 1",
+  "metadata": {}
+ },
+ "groups": [
+  {
+   "groupName": "Division 1",
+   "standings": [
+    {
+     "position": 1,
+     "played": 14,
+     "won": 7,
+     "lost": 1,
+     "tied": 6,
+     "points": 225.0,
+     "team": {
+      "metadata": {
+       "affiliated_team_names": "Warwickshire Bears Men",
+       "alias": "Warwickshire CCC Men",
+       "alias_first_class": "Warwickshire Men",
+       "alias_first_class_short": "Warwickshire Men",
+       "alias_one_day": "Warwickshire Men",
+       "alias_one_day_short": "Warwickshire Men",
+       "box_office": "Warwickshire County Cricket Club, The County Ground, Edgbaston, Birmingham, B5 7QU",
+       "contact_email": "redacted@example.invalid",
+       "contact_number": "redacted",
+       "facebook_url": "https://www.facebook.com/WarwickshireCCC",
+       "instagram_url": "https://www.instagram.com/WarwickshireCCC/",
+       "is_domestic": true,
+       "t20_abbreviation": "Bears",
+       "t20_fullname": "Warwickshire Bears Men",
+       "t20_shortname": "Warwickshire Bears Men",
+       "twitter_url": "https://twitter.com/WarwickshireCCC",
+       "website": "https://protect-eu.mimecast.com/s/Kcz6CZ4PLc5VG2lUzagN9?domain=edgbaston.com/",
+       "year_founded": 1882,
+       "youtube_url": "https://www.youtube.com/channel/UCyMJCUxEJGZJSBtw7QKC_lw"
+      },
+      "id": 472,
+      "fullName": "Warwickshire",
+      "shortName": "Warwickshire",
+      "abbreviation": "WAR",
+      "primaryColor": "FFFF00",
+      "secondaryColor": "",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "netRunRate": null,
+     "noResult": 0,
+     "totalRunsFor": 6062,
+     "totalRunsAgainst": 6499,
+     "totalBallsFor": 10397,
+     "totalBallsAgainst": 11795,
+     "battingBonus": 24,
+     "bowlingBonus": 41,
+     "deductions": 0,
+     "bowlAvg": "47.18",
+     "drawn": 6,
+     "positionLabel": "1",
+     "recentForm": [
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 112931,
+        "name": "Division 1",
+        "tournamentId": {
+         "id": 76738,
+         "name": "Rothesay County Championship",
+         "provisional": false,
+         "description": "Division 1",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 112918,
+        "name": "Division 1",
+        "tournamentId": {
+         "id": 76738,
+         "name": "Rothesay County Championship",
+         "provisional": false,
+         "description": "Division 1",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 112909,
+        "name": "Division 1",
+        "tournamentId": {
+         "id": 76738,
+         "name": "Rothesay County Championship",
+         "provisional": false,
+         "description": "Division 1",
+         "metadata": {}
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "data": {
+  "bat-rank": {
+   "last_updated": "2026-11-09T10:09+05:30",
+   "rank-type": "test-team",
+   "rank_date": "2026-11-09",
+   "rank": [
+    {
+     "no": "1",
+     "change": "( - )",
+     "Country_id": "7",
+     "Country": "South Africa",
+     "shortname": "SA",
+     "team_id": "7",
+     "team_name": "South Africa",
+     "team_url": "https://www.icc-cricket.com/teams/7/south-africa-men",
+     "Matches": "23",
+     "Points": "2860",
+     "Rating": "124",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "2",
+     "change": "( - )",
+     "Country_id": "1",
+     "Country": "Australia",
+     "shortname": "AUS",
+     "team_id": "1",
+     "team_name": "Australia",
+     "team_url": "https://www.icc-cricket.com/teams/1/australia-men",
+     "Matches": "31",
+     "Points": "3787",
+     "Rating": "122",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "3",
+     "change": "( - )",
+     "Country_id": "5",
+     "Country": "New Zealand",
+     "shortname": "NZ",
+     "team_id": "5",
+     "team_name": "New Zealand",
+     "team_url": "https://www.icc-cricket.com/teams/5/new-zealand-men",
+     "Matches": "22",
+     "Points": "2336",
+     "Rating": "106",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "4",
+     "change": "( - )",
+     "Country_id": "4",
+     "Country": "India",
+     "shortname": "IND",
+     "team_id": "4",
+     "team_name": "India",
+     "team_url": "https://www.icc-cricket.com/teams/4/india-men",
+     "Matches": "29",
+     "Points": "3042",
+     "Rating": "105",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "5",
+     "change": "( - )",
+     "Country_id": "3",
+     "Country": "England",
+     "shortname": "ENG",
+     "team_id": "3",
+     "team_name": "England",
+     "team_url": "https://www.icc-cricket.com/teams/3/england-men",
+     "Matches": "36",
+     "Points": "3658",
+     "Rating": "102",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "6",
+     "change": "(+2)",
+     "Country_id": "9",
+     "Country": "West Indies",
+     "shortname": "WI",
+     "team_id": "9",
+     "team_name": "West Indies",
+     "team_url": "https://www.icc-cricket.com/teams/9/west-indies-men",
+     "Matches": "30",
+     "Points": "2339",
+     "Rating": "78",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "7",
+     "change": "( - )",
+     "Country_id": "8",
+     "Country": "Sri Lanka",
+     "shortname": "SL",
+     "team_id": "8",
+     "team_name": "Sri Lanka",
+     "team_url": "https://www.icc-cricket.com/teams/8/sri-lanka-men",
+     "Matches": "19",
+     "Points": "1434",
+     "Rating": "75",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "8",
+     "change": "(-2)",
+     "Country_id": "2",
+     "Country": "Bangladesh",
+     "shortname": "BAN",
+     "team_id": "2",
+     "team_name": "Bangladesh",
+     "team_url": "https://www.icc-cricket.com/teams/2/bangladesh-men",
+     "Matches": "28",
+     "Points": "2038",
+     "Rating": "73",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "9",
+     "change": "( - )",
+     "Country_id": "6",
+     "Country": "Pakistan",
+     "shortname": "PAK",
+     "team_id": "6",
+     "team_name": "Pakistan",
+     "team_url": "https://www.icc-cricket.com/teams/6/pakistan-men",
+     "Matches": "23",
+     "Points": "1623",
+     "Rating": "71",
+     "rankdate": "2026-11-09"
+    },
+    {
+     "no": "10",
+     "change": "( - )",
+     "Country_id": "10",
+     "Country": "Zimbabwe",
+     "shortname": "ZIM",
+     "team_id": "10",
+     "team_name": "Zimbabwe",
+     "team_url": "https://www.icc-cricket.com/teams/10/zimbabwe-men",
+     "Matches": "13",
+     "Points": "217",
+     "Rating": "17",
+     "rankdate": "2026-11-09"
+    }
+   ]
+  }
+ },
+ "meta": {
+  "app_status_code": 1,
+  "message": "Success",
+  "pagination": false,
+  "count": 0,
+  "timestamp": {
+   "utc_time": "11/10/2026 5:33:44 PM"
+  }
+ }
+}

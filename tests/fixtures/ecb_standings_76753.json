@@ -1,0 +1,168 @@
+{
+ "tournamentId": {
+  "id": 76753,
+  "name": "The Hundred Men",
+  "provisional": false,
+  "description": "The Hundred Men",
+  "metadata": {}
+ },
+ "groups": [
+  {
+   "groupName": "",
+   "standings": [
+    {
+     "position": 1,
+     "played": 8,
+     "won": 6,
+     "lost": 2,
+     "tied": 0,
+     "points": 24.0,
+     "team": {
+      "metadata": {},
+      "id": 880,
+      "fullName": "Trent Rockets Men",
+      "shortName": "Trent Rockets Men",
+      "abbreviation": "TR",
+      "primaryColor": "FEE600",
+      "secondaryColor": "F03A0A",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "netRunRate": "+0.740",
+     "noResult": 0,
+     "totalRunsFor": 1356,
+     "totalRunsAgainst": 1352,
+     "totalBallsFor": 830,
+     "totalBallsAgainst": 895,
+     "battingBonus": 0,
+     "bowlingBonus": 0,
+     "deductions": 0,
+     "bowlAvg": "18.26530612244898",
+     "drawn": 0,
+     "positionLabel": "1",
+     "recentForm": [
+      {
+       "outcome": "L",
+       "matchId": {
+        "id": 113374,
+        "name": "Final",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "L",
+       "matchId": {
+        "id": 113364,
+        "name": "",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 113356,
+        "name": "",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      }
+     ]
+    },
+    {
+     "position": 2,
+     "played": 8,
+     "won": 5,
+     "lost": 3,
+     "tied": 0,
+     "points": 20.0,
+     "team": {
+      "metadata": {},
+      "id": 882,
+      "fullName": "Manchester Super Giants Men",
+      "shortName": "Manchester Super Giants Men",
+      "abbreviation": "MSG",
+      "primaryColor": "800000",
+      "secondaryColor": "FFFFFF",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "netRunRate": "+0.791",
+     "noResult": 0,
+     "totalRunsFor": 1567,
+     "totalRunsAgainst": 1485,
+     "totalBallsFor": 929,
+     "totalBallsAgainst": 972,
+     "battingBonus": 0,
+     "bowlingBonus": 0,
+     "deductions": 0,
+     "bowlAvg": "15.428571428571429",
+     "drawn": 0,
+     "positionLabel": "2",
+     "recentForm": [
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 113374,
+        "name": "Final",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 113372,
+        "name": "Eliminator",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      },
+      {
+       "outcome": "W",
+       "matchId": {
+        "id": 113366,
+        "name": "",
+        "tournamentId": {
+         "id": 76753,
+         "name": "The Hundred Men",
+         "provisional": false,
+         "description": "The Hundred Men",
+         "metadata": {}
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

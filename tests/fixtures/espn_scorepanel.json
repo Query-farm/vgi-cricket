@@ -1,0 +1,1081 @@
+{
+ "scores": [
+  {
+   "leagues": [
+    {
+     "id": "18522",
+     "uid": "s:200~l:18522",
+     "name": "Abu Dhabi T10",
+     "abbreviation": "Abu Dhabi T10",
+     "slug": "18522",
+     "calendarType": "day",
+     "links": {
+      "language": "en",
+      "rel": [
+       "event",
+       "league",
+       "serieshome",
+       "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/series/_/id/18522/season/2026/abu-dhabi-t10",
+      "text": "Series Home",
+      "shortText": "Series Home",
+      "isExternal": false,
+      "isPremium": false
+     }
+    }
+   ],
+   "day": {},
+   "season": {
+    "year": 2026,
+    "type": 18522
+   },
+   "events": [
+    {
+     "id": "1561258",
+     "uid": "s:200~e:1561258",
+     "date": "2026-11-10T13:45Z",
+     "endDate": "2026-11-12T23:59Z",
+     "name": "United Tigers v Yas Lions",
+     "shortName": "UNT v YAL",
+     "description": "9th Match (D/N), Abu Dhabi T10 at Abu Dhabi, Nov 10 2026",
+     "season": {
+      "year": 2026,
+      "type": 18522
+     },
+     "competitions": [
+      {
+       "id": "1561258",
+       "uid": "s:200~e:1561258~c:1561258",
+       "description": "9th Match",
+       "shortDescription": "9th Match,  (D/N) at Abu Dhabi",
+       "date": "2026-11-10T13:45Z",
+       "endDate": "2026-11-12T23:59Z",
+       "timeValid": true,
+       "neutralSite": true,
+       "attendance": 0,
+       "conferenceCompetition": false,
+       "playByPlayAvailable": false,
+       "fastcastAvailable": true,
+       "recent": true,
+       "class": {
+        "internationalClassId": "0",
+        "generalClassId": "12",
+        "generalClassCard": "Other OD",
+        "name": "Other one-day/limited-overs matches",
+        "eventType": "ODI"
+       },
+       "venue": {
+        "id": "59396",
+        "fullName": "Zayed Cricket Stadium, Abu Dhabi",
+        "address": {
+         "city": "Abu Dhabi",
+         "state": "",
+         "country": "United Arab Emirates",
+         "summary": ""
+        },
+        "capacity": 20000,
+        "indoor": false
+       },
+       "competitors": [
+        {
+         "id": "1561248",
+         "uid": "s:200~e:1561258~c:1561258~t:1561248",
+         "type": "team",
+         "order": 2,
+         "homeAway": "home",
+         "winner": "false",
+         "score": "102/5 (10 ov, target 116)",
+         "team": {
+          "id": "1561248",
+          "uid": "s:200~t:1561248",
+          "location": "United Arab Emirates",
+          "name": "United Tigers",
+          "abbreviation": "UNT",
+          "displayName": "United Tigers",
+          "shortDisplayName": "UNT",
+          "isActive": true,
+          "countryCode": "AE",
+          "color": "",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/1561248/united-tigers",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/1561248.png",
+          "logoDark": ""
+         },
+         "linescores": [
+          {
+           "period": 1,
+           "value": 1,
+           "displayValue": 1,
+           "wickets": 0,
+           "runs": 0,
+           "overs": 10.0,
+           "isBatting": false,
+           "description": "",
+           "isCurrent": 0
+          },
+          {
+           "period": 2,
+           "value": 2,
+           "displayValue": 2,
+           "wickets": 5,
+           "runs": 102,
+           "overs": 10.0,
+           "isBatting": true,
+           "description": "",
+           "isCurrent": 1
+          }
+         ],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/18522/events/1561258/competitions/1561258/competitors/1561248/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        },
+        {
+         "id": "1561245",
+         "uid": "s:200~e:1561258~c:1561258~t:1561245",
+         "type": "team",
+         "order": 1,
+         "homeAway": "away",
+         "winner": "true",
+         "score": "115/5",
+         "team": {
+          "id": "1561245",
+          "uid": "s:200~t:1561245",
+          "location": "United Arab Emirates",
+          "name": "Yas Lions",
+          "abbreviation": "YAL",
+          "displayName": "Yas Lions",
+          "shortDisplayName": "YAL",
+          "isActive": true,
+          "countryCode": "AE",
+          "color": "",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/1561245/yas-lions",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/1561245.png",
+          "logoDark": ""
+         },
+         "linescores": [
+          {
+           "period": 1,
+           "value": 1,
+           "displayValue": 1,
+           "wickets": 5,
+           "runs": 115,
+           "overs": 10.0,
+           "isBatting": true,
+           "description": "",
+           "isCurrent": 0
+          },
+          {
+           "period": 2,
+           "value": 2,
+           "displayValue": 2,
+           "wickets": 0,
+           "runs": 0,
+           "overs": 10.0,
+           "isBatting": false,
+           "description": "",
+           "isCurrent": 1
+          }
+         ],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/18522/events/1561258/competitions/1561258/competitors/1561245/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        }
+       ],
+       "status": {
+        "clock": 0,
+        "displayClock": "0'",
+        "period": 2,
+        "featuredAthletes": [
+         {
+          "abbreviation": "POTM",
+          "athlete": {
+           "id": "793467",
+           "name": "Karim Janat",
+           "shortName": "",
+           "fullName": "Karim Janat",
+           "displayName": "Karim Janat",
+           "position": "BTA",
+           "headshot": "https://a.espncdn.com/i/headshots/cricket/players/full/793467.png",
+           "team": {
+            "id": "40"
+           },
+           "links": [
+            {
+             "rel": [
+              "playercard",
+              "desktop"
+             ],
+             "href": "https://www.cricinfo.com/ci/content/player/793467.html"
+            }
+           ]
+          },
+          "displayName": "Player Of The Match",
+          "linescores": {
+           "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/18522/events/1561258/competitions/1561258/competitors/1561245/roster/793467/linescores"
+          },
+          "name": "playerOfTheMatch",
+          "playerId": 793467,
+          "shortDisplayName": "POTM",
+          "team": {
+           "id": "1561245"
+          },
+          "statistics": []
+         }
+        ],
+        "summary": "Lions won by 13 runs",
+        "type": {
+         "id": "1",
+         "description": "Result",
+         "detail": "Final",
+         "shortDetail": "Final",
+         "state": "post"
+        }
+       },
+       "broadcasts": [],
+       "notes": [],
+       "startDate": "2026-11-10T13:45Z",
+       "broadcast": "",
+       "geoBroadcasts": [],
+       "highlights": []
+      }
+     ],
+     "links": [
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "boxscore",
+        "scorecard",
+        "match",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/18522/scorecard/1561258/united-tigers-vs-yas-lions-9th-match-abu-dhabi-t10-2026-27",
+       "text": "Scorecard",
+       "shortText": "Scorecard",
+       "isExternal": false,
+       "isPremium": false
+      },
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "boxscore",
+        "match",
+        "live",
+        "summary",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/18522/game/1561258/united-tigers-vs-yas-lions-9th-match-abu-dhabi-t10-2026-27",
+       "text": "Summary",
+       "shortText": "Summary",
+       "isExternal": false,
+       "isPremium": false
+      },
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "league",
+        "serieshome",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/_/id/18522/season/2026/abu-dhabi-t10",
+       "text": "Series Home",
+       "shortText": "Series Home",
+       "isExternal": false,
+       "isPremium": false
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0'",
+      "period": 2,
+      "summary": "Lions won by 13 runs",
+      "type": {
+       "id": "1",
+       "description": "Result",
+       "detail": "Final",
+       "shortDetail": "Final",
+       "state": "post"
+      }
+     },
+     "leagueId": "18522",
+     "isTopEvent": false
+    },
+    {
+     "id": "1561259",
+     "uid": "s:200~e:1561259",
+     "date": "2026-11-10T16:00Z",
+     "endDate": "2026-11-11T23:59Z",
+     "name": "Emirates Eagles v UAE Bulls",
+     "shortName": "EME v UB",
+     "description": "10th Match (N), Abu Dhabi T10 at Abu Dhabi, Nov 10 2026",
+     "season": {
+      "year": 2026,
+      "type": 18522
+     },
+     "competitions": [
+      {
+       "id": "1561259",
+       "uid": "s:200~e:1561259~c:1561259",
+       "description": "10th Match",
+       "shortDescription": "10th Match,  (N) at Abu Dhabi",
+       "date": "2026-11-10T16:00Z",
+       "endDate": "2026-11-11T23:59Z",
+       "timeValid": true,
+       "neutralSite": true,
+       "attendance": 0,
+       "conferenceCompetition": false,
+       "playByPlayAvailable": false,
+       "fastcastAvailable": true,
+       "recent": true,
+       "class": {
+        "internationalClassId": "0",
+        "generalClassId": "11",
+        "generalClassCard": "Other match",
+        "name": "Other matches",
+        "eventType": "Test"
+       },
+       "venue": {
+        "id": "59396",
+        "fullName": "Zayed Cricket Stadium, Abu Dhabi",
+        "address": {
+         "city": "Abu Dhabi",
+         "state": "",
+         "country": "United Arab Emirates",
+         "summary": ""
+        },
+        "capacity": 20000,
+        "indoor": false
+       },
+       "competitors": [
+        {
+         "id": "1561246",
+         "uid": "s:200~e:1561259~c:1561259~t:1561246",
+         "type": "team",
+         "order": 1,
+         "homeAway": "home",
+         "winner": "false",
+         "score": "137/7",
+         "team": {
+          "id": "1561246",
+          "uid": "s:200~t:1561246",
+          "location": "United Arab Emirates",
+          "name": "Emirates Eagles",
+          "abbreviation": "EME",
+          "displayName": "Emirates Eagles",
+          "shortDisplayName": "EME",
+          "isActive": true,
+          "countryCode": "AE",
+          "color": "",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/1561246/emirates-eagles",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/1561246.png",
+          "logoDark": ""
+         },
+         "linescores": [
+          {
+           "period": 1,
+           "value": 1,
+           "displayValue": 1,
+           "wickets": 7,
+           "runs": 137,
+           "overs": 10.0,
+           "isBatting": true,
+           "description": "",
+           "isCurrent": 0
+          },
+          {
+           "period": 2,
+           "value": 2,
+           "displayValue": 2,
+           "wickets": 0,
+           "runs": 0,
+           "overs": 4.4,
+           "isBatting": false,
+           "description": "",
+           "isCurrent": 1
+          }
+         ],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/18522/events/1561259/competitions/1561259/competitors/1561246/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        },
+        {
+         "id": "1511694",
+         "uid": "s:200~e:1561259~c:1561259~t:1511694",
+         "type": "team",
+         "order": 2,
+         "homeAway": "away",
+         "winner": "false",
+         "score": "66/3 (4.4/10 ov, target 138)",
+         "team": {
+          "id": "1511694",
+          "uid": "s:200~t:1511694",
+          "location": "United Arab Emirates",
+          "name": "UAE Bulls",
+          "abbreviation": "UB",
+          "displayName": "UAE Bulls",
+          "shortDisplayName": "UB",
+          "isActive": true,
+          "countryCode": "AE",
+          "color": "",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/1511694/uae-bulls",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/1511694.png",
+          "logoDark": ""
+         },
+         "linescores": [
+          {
+           "period": 1,
+           "value": 1,
+           "displayValue": 1,
+           "wickets": 0,
+           "runs": 0,
+           "overs": 10.0,
+           "isBatting": false,
+           "description": "",
+           "isCurrent": 0
+          },
+          {
+           "period": 2,
+           "value": 2,
+           "displayValue": 2,
+           "wickets": 3,
+           "runs": 66,
+           "overs": 4.4,
+           "isBatting": true,
+           "description": "",
+           "isCurrent": 1
+          }
+         ],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/18522/events/1561259/competitions/1561259/competitors/1511694/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        }
+       ],
+       "status": {
+        "clock": 0,
+        "displayClock": "0'",
+        "period": 2,
+        "session": "",
+        "featuredAthletes": [],
+        "summary": "Bulls require 72 runs",
+        "type": {
+         "id": "0",
+         "description": "Live",
+         "detail": "Live",
+         "shortDetail": "Live",
+         "state": "in"
+        }
+       },
+       "odds": [],
+       "broadcasts": [],
+       "notes": [],
+       "situation": {},
+       "startDate": "2026-11-10T16:00Z",
+       "broadcast": "",
+       "geoBroadcasts": [],
+       "highlights": []
+      }
+     ],
+     "links": [
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "boxscore",
+        "match",
+        "live",
+        "summary",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/18522/game/1561259/emirates-eagles-vs-uae-bulls-10th-match-abu-dhabi-t10-2026-27",
+       "text": "Summary",
+       "shortText": "Summary",
+       "isExternal": false,
+       "isPremium": false
+      },
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "league",
+        "serieshome",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/_/id/18522/season/2026/abu-dhabi-t10",
+       "text": "Series Home",
+       "shortText": "Series Home",
+       "isExternal": false,
+       "isPremium": false
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0'",
+      "period": 2,
+      "session": "",
+      "summary": "Bulls require 72 runs",
+      "type": {
+       "id": "0",
+       "description": "Live",
+       "detail": "Live",
+       "shortDetail": "Live",
+       "state": "in"
+      }
+     },
+     "leagueId": "18522",
+     "isTopEvent": false
+    }
+   ]
+  },
+  {
+   "leagues": [
+    {
+     "id": "8043",
+     "uid": "s:200~l:8043",
+     "name": "Sheffield Shield",
+     "abbreviation": "Sheff Shield",
+     "slug": "8043",
+     "calendarType": "day",
+     "links": {
+      "language": "en",
+      "rel": [
+       "event",
+       "league",
+       "serieshome",
+       "desktop"
+      ],
+      "href": "https://www.espn.in/cricket/series/_/id/8043/season/2026/sheffield-shield",
+      "text": "Series Home",
+      "shortText": "Series Home",
+      "isExternal": false,
+      "isPremium": false
+     }
+    }
+   ],
+   "day": {},
+   "season": {
+    "year": 2026,
+    "type": 8043
+   },
+   "events": [
+    {
+     "id": "1544873",
+     "uid": "s:200~e:1544873",
+     "date": "2026-11-10T23:30Z",
+     "endDate": "2026-11-14T23:59Z",
+     "name": "New South Wales v South Australia",
+     "shortName": "NSW v SOA",
+     "description": "10th Match, Sheffield Shield at Sydney, Nov 11-14 2026",
+     "season": {
+      "year": 2026,
+      "type": 8043
+     },
+     "competitions": [
+      {
+       "id": "1544873",
+       "uid": "s:200~e:1544873~c:1544873",
+       "description": "10th Match",
+       "shortDescription": "10th Match,  at Sydney",
+       "date": "2026-11-10T23:30Z",
+       "endDate": "2026-11-14T23:59Z",
+       "timeValid": true,
+       "neutralSite": true,
+       "attendance": 0,
+       "conferenceCompetition": false,
+       "playByPlayAvailable": false,
+       "fastcastAvailable": false,
+       "recent": false,
+       "class": {
+        "internationalClassId": "0",
+        "generalClassId": "4",
+        "generalClassCard": "First-class",
+        "name": "First-class matches",
+        "eventType": "Test"
+       },
+       "venue": {
+        "id": "1399484",
+        "fullName": "Cricket Central, Sydney",
+        "address": {
+         "city": "Sydney",
+         "state": "",
+         "country": "Australia",
+         "summary": ""
+        },
+        "capacity": 0,
+        "indoor": false
+       },
+       "competitors": [
+        {
+         "id": "387",
+         "uid": "s:200~e:1544873~c:1544873~t:387",
+         "type": "team",
+         "order": 1,
+         "homeAway": "home",
+         "winner": "false",
+         "score": "",
+         "team": {
+          "id": "387",
+          "uid": "s:200~t:387",
+          "location": "Australia",
+          "name": "New South Wales",
+          "abbreviation": "NSW",
+          "displayName": "New South Wales",
+          "shortDisplayName": "NSW",
+          "isActive": true,
+          "countryCode": "AU",
+          "color": "#0bd1f9",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/387/new-south-wales",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/387.png",
+          "logoDark": ""
+         },
+         "linescores": [],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/8043/events/1544873/competitions/1544873/competitors/387/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        },
+        {
+         "id": "520",
+         "uid": "s:200~e:1544873~c:1544873~t:520",
+         "type": "team",
+         "order": 2,
+         "homeAway": "away",
+         "winner": "false",
+         "score": "",
+         "team": {
+          "id": "520",
+          "uid": "s:200~t:520",
+          "location": "Australia",
+          "name": "South Australia",
+          "abbreviation": "SOA",
+          "displayName": "South Australia",
+          "shortDisplayName": "SOA",
+          "isActive": true,
+          "countryCode": "AU",
+          "color": "#f70808",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/520/south-australia",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/520.png",
+          "logoDark": ""
+         },
+         "linescores": [],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/8043/events/1544873/competitions/1544873/competitors/520/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        }
+       ],
+       "status": {
+        "clock": 0,
+        "displayClock": "0'",
+        "period": 0,
+        "featuredAthletes": [],
+        "summary": "Starts at 10:30 local time",
+        "type": {
+         "id": "0",
+         "description": "Scheduled",
+         "detail": "Scheduled",
+         "shortDetail": "Scheduled",
+         "state": "pre"
+        }
+       },
+       "odds": [],
+       "broadcasts": [],
+       "notes": [],
+       "startDate": "2026-11-10T23:30Z",
+       "broadcast": "",
+       "geoBroadcasts": [],
+       "highlights": []
+      }
+     ],
+     "links": [
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "boxscore",
+        "match",
+        "live",
+        "summary",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/8043/game/1544873/new-south-wales-vs-south-australia-10th-match-sheffield-shield-2026-27",
+       "text": "Summary",
+       "shortText": "Summary",
+       "isExternal": false,
+       "isPremium": false
+      },
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "league",
+        "serieshome",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/_/id/8043/season/2026/sheffield-shield",
+       "text": "Series Home",
+       "shortText": "Series Home",
+       "isExternal": false,
+       "isPremium": false
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0'",
+      "period": 0,
+      "summary": "Starts at 10:30 local time",
+      "type": {
+       "id": "0",
+       "description": "Scheduled",
+       "detail": "Scheduled",
+       "shortDetail": "Scheduled",
+       "state": "pre"
+      }
+     },
+     "leagueId": "8043",
+     "isTopEvent": false
+    },
+    {
+     "id": "1544874",
+     "uid": "s:200~e:1544874",
+     "date": "2026-11-10T23:30Z",
+     "endDate": "2026-11-14T23:59Z",
+     "name": "Victoria v Western Australia",
+     "shortName": "VIC v WA",
+     "description": "11th Match, Sheffield Shield at Melbourne, Nov 11-14 2026",
+     "season": {
+      "year": 2026,
+      "type": 8043
+     },
+     "competitions": [
+      {
+       "id": "1544874",
+       "uid": "s:200~e:1544874~c:1544874",
+       "description": "11th Match",
+       "shortDescription": "11th Match,  at Melbourne",
+       "date": "2026-11-10T23:30Z",
+       "endDate": "2026-11-14T23:59Z",
+       "timeValid": true,
+       "neutralSite": true,
+       "attendance": 0,
+       "conferenceCompetition": false,
+       "playByPlayAvailable": false,
+       "fastcastAvailable": false,
+       "recent": false,
+       "class": {
+        "internationalClassId": "0",
+        "generalClassId": "4",
+        "generalClassCard": "First-class",
+        "name": "First-class matches",
+        "eventType": "Test"
+       },
+       "venue": {
+        "id": "56441",
+        "fullName": "Melbourne Cricket Ground",
+        "address": {
+         "city": "Melbourne",
+         "state": "",
+         "country": "Australia",
+         "summary": "Yarra Park, Jolimont, VIC, 3002 (Phone: +61 3 9657 8867)"
+        },
+        "capacity": 90000,
+        "indoor": false
+       },
+       "competitors": [
+        {
+         "id": "584",
+         "uid": "s:200~e:1544874~c:1544874~t:584",
+         "type": "team",
+         "order": 1,
+         "homeAway": "home",
+         "winner": "false",
+         "score": "",
+         "team": {
+          "id": "584",
+          "uid": "s:200~t:584",
+          "location": "Australia",
+          "name": "Victoria",
+          "abbreviation": "VIC",
+          "displayName": "Victoria",
+          "shortDisplayName": "VIC",
+          "isActive": true,
+          "countryCode": "AU",
+          "color": "",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/584/victoria",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/584.png",
+          "logoDark": ""
+         },
+         "linescores": [],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/8043/events/1544874/competitions/1544874/competitors/584/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        },
+        {
+         "id": "602",
+         "uid": "s:200~e:1544874~c:1544874~t:602",
+         "type": "team",
+         "order": 2,
+         "homeAway": "away",
+         "winner": "false",
+         "score": "",
+         "team": {
+          "id": "602",
+          "uid": "s:200~t:602",
+          "location": "Australia",
+          "name": "Western Australia",
+          "abbreviation": "WA",
+          "displayName": "Western Australia",
+          "shortDisplayName": "WA",
+          "isActive": true,
+          "countryCode": "AU",
+          "color": "#fbf304",
+          "links": [
+           {
+            "rel": [
+             "clubhouse",
+             "desktop"
+            ],
+            "href": "https://www.espn.in/cricket/team/_/id/602/western-australia",
+            "text": "Clubhouse",
+            "isExternal": false,
+            "isPremium": false
+           }
+          ],
+          "logo": "https://a.espncdn.com/i/teamlogos/cricket/500/602.png",
+          "logoDark": ""
+         },
+         "linescores": [],
+         "leaders": {
+          "$ref": "http://new.core.espnuk.org/v2/sports/cricket/leagues/8043/events/1544874/competitions/1544874/competitors/602/leaders"
+         },
+         "statistics": [],
+         "records": [
+          {
+           "name": "Total",
+           "abbreviation": "Total",
+           "type": "total",
+           "summary": ""
+          }
+         ]
+        }
+       ],
+       "status": {
+        "clock": 0,
+        "displayClock": "0'",
+        "period": 0,
+        "featuredAthletes": [],
+        "summary": "Starts at 10:30 local time",
+        "type": {
+         "id": "0",
+         "description": "Scheduled",
+         "detail": "Scheduled",
+         "shortDetail": "Scheduled",
+         "state": "pre"
+        }
+       },
+       "odds": [],
+       "broadcasts": [],
+       "notes": [],
+       "startDate": "2026-11-10T23:30Z",
+       "broadcast": "",
+       "geoBroadcasts": [],
+       "highlights": []
+      }
+     ],
+     "links": [
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "boxscore",
+        "match",
+        "live",
+        "summary",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/8043/game/1544874/victoria-vs-western-australia-11th-match-sheffield-shield-2026-27",
+       "text": "Summary",
+       "shortText": "Summary",
+       "isExternal": false,
+       "isPremium": false
+      },
+      {
+       "language": "en",
+       "rel": [
+        "event",
+        "league",
+        "serieshome",
+        "desktop"
+       ],
+       "href": "https://www.espn.in/cricket/series/_/id/8043/season/2026/sheffield-shield",
+       "text": "Series Home",
+       "shortText": "Series Home",
+       "isExternal": false,
+       "isPremium": false
+      }
+     ],
+     "status": {
+      "clock": 0,
+      "displayClock": "0'",
+      "period": 0,
+      "summary": "Starts at 10:30 local time",
+      "type": {
+       "id": "0",
+       "description": "Scheduled",
+       "detail": "Scheduled",
+       "shortDetail": "Scheduled",
+       "state": "pre"
+      }
+     },
+     "leagueId": "8043",
+     "isTopEvent": false
+    }
+   ]
+  }
+ ],
+ "provider": {
+  "id": "100",
+  "name": "Draft Kings",
+  "displayName": "Draft Kings",
+  "priority": 1
+ }
+}

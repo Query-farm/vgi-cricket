@@ -1,0 +1,412 @@
+{
+ "commentary": {
+  "count": 233,
+  "pageIndex": 10,
+  "pageSize": 25,
+  "pageCount": 2,
+  "items": [
+   {
+    "id": "216050",
+    "clock": "00:00",
+    "date": "2026-6-01 19:30:00",
+    "playType": {
+     "id": "1",
+     "description": "run"
+    },
+    "team": {
+     "id": "335970",
+     "name": "Royal Challengers Bengaluru",
+     "abbreviation": "RCB",
+     "displayName": "Royal Challengers Bengaluru"
+    },
+    "mediaId": 0,
+    "period": 2,
+    "periodText": "2nd innings",
+    "preText": "",
+    "text": "Wide and fullish, slapped over extra cover with a nice drive. Long-off stops it",
+    "postText": "",
+    "shortText": "Rashid Khan to Sharma, 1 run",
+    "homeScore": "0",
+    "awayScore": "148/5",
+    "scoreValue": 1,
+    "sequence": 201605,
+    "bowler": {
+     "athlete": {
+      "id": "793463",
+      "name": "Rashid Khan",
+      "shortName": "Rashid Khan",
+      "fullName": "Rashid Khan Arman",
+      "displayName": "Rashid Khan"
+     },
+     "team": {
+      "id": "1298769",
+      "name": "Gujarat Titans",
+      "abbreviation": "GT",
+      "displayName": "Gujarat Titans"
+     },
+     "maidens": 0,
+     "balls": 23,
+     "wickets": 2,
+     "overs": 3.5,
+     "conceded": 25
+    },
+    "batsman": {
+     "athlete": {
+      "id": "721867",
+      "name": "Jitesh Sharma",
+      "shortName": "Jitesh Sharma",
+      "fullName": "Jitesh Mohan Sharma",
+      "displayName": "Jitesh Sharma"
+     },
+     "team": {
+      "id": "335970",
+      "name": "Royal Challengers Bengaluru",
+      "abbreviation": "RCB",
+      "displayName": "Royal Challengers Bengaluru"
+     },
+     "totalRuns": 9,
+     "faced": 11,
+     "fours": 1,
+     "runs": 1,
+     "sixes": 0
+    },
+    "innings": {
+     "id": "290511",
+     "runRate": 8.79,
+     "remainingBalls": 19,
+     "byes": 0,
+     "number": 2,
+     "balls": 101,
+     "noBalls": 0,
+     "requiredRunRate": 2.52,
+     "wickets": 5,
+     "legByes": 0,
+     "ballLimit": 120,
+     "target": 156,
+     "session": 1,
+     "day": 1,
+     "fallOfWickets": 0,
+     "trailBy": 0,
+     "leadBy": 0,
+     "remainingRuns": 8,
+     "remainingOvers": 3.1,
+     "totalRuns": 1,
+     "wides": 0,
+     "runs": 148
+    },
+    "over": {
+     "ball": 5,
+     "balls": 6,
+     "complete": false,
+     "limit": 20.0,
+     "maiden": 0,
+     "noBall": 0,
+     "wide": 0,
+     "legByes": 0,
+     "byes": 0,
+     "number": 17,
+     "runs": 3,
+     "wickets": 0,
+     "overs": 16.5,
+     "actual": 16.5,
+     "unique": 16.05
+    },
+    "dismissal": {
+     "dismissal": false,
+     "bowled": false,
+     "type": "",
+     "bowler": {
+      "athlete": {
+       "id": "793463",
+       "name": "Rashid Khan",
+       "shortName": "Rashid Khan",
+       "fullName": "Rashid Khan Arman",
+       "displayName": "Rashid Khan"
+      }
+     },
+     "batsman": {
+      "athlete": {
+       "id": "721867",
+       "name": "Jitesh Sharma",
+       "shortName": "Jitesh Sharma",
+       "fullName": "Jitesh Mohan Sharma",
+       "displayName": "Jitesh Sharma"
+      }
+     },
+     "text": "",
+     "minutes": 0,
+     "retiredText": ""
+    },
+    "bbbTimestamp": 1780249745000
+   },
+   {
+    "id": "216060",
+    "clock": "00:00",
+    "date": "2026-6-01 19:30:00",
+    "playType": {
+     "id": "2",
+     "description": "no run"
+    },
+    "team": {
+     "id": "335970",
+     "name": "Royal Challengers Bengaluru",
+     "abbreviation": "RCB",
+     "displayName": "Royal Challengers Bengaluru"
+    },
+    "mediaId": 0,
+    "period": 2,
+    "periodText": "2nd innings",
+    "preText": "",
+    "text": "Chops the length ball to cover. Overhit that, dribbled to the left and smiled at himself",
+    "postText": "Alex: \"Was Kohli stoic as ever?\" emo as ever",
+    "shortText": "Rashid Khan to Kohli, no run",
+    "homeScore": "0",
+    "awayScore": "148/5",
+    "scoreValue": 0,
+    "sequence": 201606,
+    "bowler": {
+     "athlete": {
+      "id": "793463",
+      "name": "Rashid Khan",
+      "shortName": "Rashid Khan",
+      "fullName": "Rashid Khan Arman",
+      "displayName": "Rashid Khan"
+     },
+     "team": {
+      "id": "1298769",
+      "name": "Gujarat Titans",
+      "abbreviation": "GT",
+      "displayName": "Gujarat Titans"
+     },
+     "maidens": 0,
+     "balls": 24,
+     "wickets": 2,
+     "overs": 4.0,
+     "conceded": 25
+    },
+    "batsman": {
+     "athlete": {
+      "id": "253802",
+      "name": "Virat Kohli",
+      "shortName": "Kohli",
+      "fullName": "Virat Kohli",
+      "displayName": "Virat Kohli"
+     },
+     "team": {
+      "id": "335970",
+      "name": "Royal Challengers Bengaluru",
+      "abbreviation": "RCB",
+      "displayName": "Royal Challengers Bengaluru"
+     },
+     "totalRuns": 64,
+     "faced": 39,
+     "fours": 8,
+     "runs": 0,
+     "sixes": 2
+    },
+    "innings": {
+     "id": "290511",
+     "runRate": 8.7,
+     "remainingBalls": 18,
+     "byes": 0,
+     "number": 2,
+     "balls": 102,
+     "noBalls": 0,
+     "requiredRunRate": 2.66,
+     "wickets": 5,
+     "legByes": 0,
+     "ballLimit": 120,
+     "target": 156,
+     "session": 1,
+     "day": 1,
+     "fallOfWickets": 0,
+     "trailBy": 0,
+     "leadBy": 0,
+     "remainingRuns": 8,
+     "remainingOvers": 3.0,
+     "totalRuns": 0,
+     "wides": 0,
+     "runs": 148
+    },
+    "over": {
+     "ball": 6,
+     "balls": 6,
+     "complete": true,
+     "limit": 20.0,
+     "maiden": 0,
+     "noBall": 0,
+     "wide": 0,
+     "legByes": 0,
+     "byes": 0,
+     "number": 17,
+     "runs": 3,
+     "wickets": 0,
+     "overs": 16.6,
+     "actual": 16.6,
+     "unique": 16.06
+    },
+    "dismissal": {
+     "dismissal": false,
+     "bowled": false,
+     "type": "",
+     "bowler": {
+      "athlete": {
+       "id": "793463",
+       "name": "Rashid Khan",
+       "shortName": "Rashid Khan",
+       "fullName": "Rashid Khan Arman",
+       "displayName": "Rashid Khan"
+      }
+     },
+     "batsman": {
+      "athlete": {
+       "id": "253802",
+       "name": "Virat Kohli",
+       "shortName": "Kohli",
+       "fullName": "Virat Kohli",
+       "displayName": "Virat Kohli"
+      }
+     },
+     "text": "",
+     "minutes": 0,
+     "retiredText": ""
+    },
+    "bbbTimestamp": 1780249769000
+   },
+   {
+    "id": "217010",
+    "clock": "00:00",
+    "date": "2026-6-01 19:30:00",
+    "playType": {
+     "id": "1",
+     "description": "run"
+    },
+    "team": {
+     "id": "335970",
+     "name": "Royal Challengers Bengaluru",
+     "abbreviation": "RCB",
+     "displayName": "Royal Challengers Bengaluru"
+    },
+    "mediaId": 0,
+    "period": 2,
+    "periodText": "2nd innings",
+    "preText": "",
+    "text": "Length on fourth, run down to deep third with a fully open face. Arshad falls into the ground, likely cramps. Left leg.",
+    "postText": "Sid-M : \"Cramps in the air tonight \"",
+    "shortText": "Arshad Khan to Sharma, 1 run",
+    "homeScore": "0",
+    "awayScore": "149/5",
+    "scoreValue": 1,
+    "sequence": 201701,
+    "bowler": {
+     "athlete": {
+      "id": "1244751",
+      "name": "Arshad Khan",
+      "shortName": "",
+      "fullName": "Mohd Arshad Khan",
+      "displayName": "Arshad Khan"
+     },
+     "team": {
+      "id": "1298769",
+      "name": "Gujarat Titans",
+      "abbreviation": "GT",
+      "displayName": "Gujarat Titans"
+     },
+     "maidens": 0,
+     "balls": 19,
+     "wickets": 1,
+     "overs": 3.1,
+     "conceded": 20
+    },
+    "batsman": {
+     "athlete": {
+      "id": "721867",
+      "name": "Jitesh Sharma",
+      "shortName": "Jitesh Sharma",
+      "fullName": "Jitesh Mohan Sharma",
+      "displayName": "Jitesh Sharma"
+     },
+     "team": {
+      "id": "335970",
+      "name": "Royal Challengers Bengaluru",
+      "abbreviation": "RCB",
+      "displayName": "Royal Challengers Bengaluru"
+     },
+     "totalRuns": 10,
+     "faced": 12,
+     "fours": 1,
+     "runs": 1,
+     "sixes": 0
+    },
+    "innings": {
+     "id": "290511",
+     "runRate": 8.67,
+     "remainingBalls": 17,
+     "byes": 0,
+     "number": 2,
+     "balls": 103,
+     "noBalls": 0,
+     "requiredRunRate": 2.47,
+     "wickets": 5,
+     "legByes": 0,
+     "ballLimit": 120,
+     "target": 156,
+     "session": 1,
+     "day": 1,
+     "fallOfWickets": 0,
+     "trailBy": 0,
+     "leadBy": 0,
+     "remainingRuns": 7,
+     "remainingOvers": 2.5,
+     "totalRuns": 1,
+     "wides": 0,
+     "runs": 149
+    },
+    "over": {
+     "ball": 1,
+     "balls": 6,
+     "complete": false,
+     "limit": 20.0,
+     "maiden": 0,
+     "noBall": 0,
+     "wide": 0,
+     "legByes": 0,
+     "byes": 0,
+     "number": 18,
+     "runs": 13,
+     "wickets": 0,
+     "overs": 17.1,
+     "actual": 17.1,
+     "unique": 17.01
+    },
+    "dismissal": {
+     "dismissal": false,
+     "bowled": false,
+     "type": "",
+     "bowler": {
+      "athlete": {
+       "id": "1244751",
+       "name": "Arshad Khan",
+       "shortName": "",
+       "fullName": "Mohd Arshad Khan",
+       "displayName": "Arshad Khan"
+      }
+     },
+     "batsman": {
+      "athlete": {
+       "id": "721867",
+       "name": "Jitesh Sharma",
+       "shortName": "Jitesh Sharma",
+       "fullName": "Jitesh Mohan Sharma",
+       "displayName": "Jitesh Sharma"
+      }
+     },
+     "text": "",
+     "minutes": 0,
+     "retiredText": ""
+    },
+    "bbbTimestamp": 1780249820000
+   }
+  ]
+ }
+}

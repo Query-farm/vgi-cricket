@@ -1,0 +1,295 @@
+{
+ "pageInfo": {
+  "page": 0,
+  "numPages": 1,
+  "pageSize": 100,
+  "numEntries": 2
+ },
+ "content": [
+  {
+   "metadata": {
+    "broadcaster": "bbc,sky-sports",
+    "selling-fast": false
+   },
+   "timestamp": "2026-07-21T18:30:00+0100",
+   "label": "MIL v SL, The Hundred Men, 21 Jul",
+   "tournamentId": {
+    "id": 76753,
+    "name": "The Hundred Men",
+    "provisional": false,
+    "description": "The Hundred Men",
+    "metadata": {}
+   },
+   "tournamentLabel": "The Hundred Men",
+   "scheduleEntry": {
+    "description": "",
+    "matchDate": "2026-07-21T18:30:00+0100",
+    "matchType": "T20",
+    "matchState": "C",
+    "highlightsLink": null,
+    "reportLink": null,
+    "matchPreviewLink": null,
+    "photostreamLink": null,
+    "venue": {
+     "metadata": {
+      "display_name": "The Kia Oval",
+      "display_name_75075": "The Kia Oval, London",
+      "display_name_75076": "The Kia Oval, London",
+      "display_name_75085": "The Kia Oval",
+      "display_name_75087": "The Kia Oval",
+      "display_name_75091": "The Kia Oval",
+      "display_name_75096": "The Kia Oval",
+      "display_name_75102": "The Kia Oval",
+      "display_name_75112": "The Kia Oval",
+      "display_name_76678": "The Kia Oval, London",
+      "display_name_76679": "The Kia Oval, London",
+      "display_name_76752": "The Kia Oval, London",
+      "display_name_76753": "The Kia Oval, London"
+     },
+     "id": 17,
+     "fullName": "The Kia Oval",
+     "shortName": "The Kia Oval",
+     "city": "The Oval",
+     "country": "England",
+     "coordinates": {
+      "longitude": -0.114722,
+      "latitude": 51.483738
+     }
+    },
+    "matchStatus": {
+     "outcome": "A",
+     "text": "MI London Men win by 7 wickets"
+    },
+    "team1": {
+     "team": {
+      "metadata": {},
+      "id": 878,
+      "fullName": "MI London Men",
+      "shortName": "MI London Men",
+      "abbreviation": "MIL",
+      "primaryColor": "00FFAB",
+      "secondaryColor": "000000",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "innings": [
+      {
+       "inningsNumber": 2,
+       "runs": 144,
+       "wkts": 3,
+       "ballsFaced": 84,
+       "maxBalls": 0,
+       "allOut": false,
+       "declared": false,
+       "adjustedRuns": null,
+       "adjustedBallsFaced": null,
+       "dlTarget": null,
+       "overProgress": "16.4",
+       "dlOversLimit": null,
+       "runRate": "8.78"
+      }
+     ]
+    },
+    "team2": {
+     "team": {
+      "metadata": {},
+      "id": 883,
+      "fullName": "SunRisers Leeds Men",
+      "shortName": "SunRisers Leeds Men",
+      "abbreviation": "SL",
+      "primaryColor": "FFA500",
+      "secondaryColor": "D12D5F",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "innings": [
+      {
+       "inningsNumber": 1,
+       "runs": 143,
+       "wkts": 10,
+       "ballsFaced": 99,
+       "maxBalls": 0,
+       "allOut": true,
+       "declared": false,
+       "adjustedRuns": null,
+       "adjustedBallsFaced": null,
+       "dlTarget": null,
+       "overProgress": "19.4",
+       "dlOversLimit": null,
+       "runRate": "7.37"
+      }
+     ]
+    },
+    "groupName": "The Hundred Men",
+    "tbc": null,
+    "oversLimit": 20,
+    "matchId": {
+     "metadata": null,
+     "id": 113308,
+     "name": "MI London Men v SunRisers Leeds Men at The Oval, The Hundred Men, 21 Jul 2026",
+     "altIds": {
+      "CricViz": "235999"
+     },
+     "tournamentId": {
+      "id": 76753,
+      "name": "The Hundred Men",
+      "provisional": false,
+      "description": "The Hundred Men",
+      "metadata": {}
+     }
+    }
+   },
+   "resultOnly": false,
+   "timestampMs": 1784655000000,
+   "endTimestampMs": 1784664673000,
+   "endTimestamp": "2026-07-21T21:11:13+0100",
+   "battingOrder": null
+  },
+  {
+   "metadata": {
+    "broadcaster": "bbc,sky-sports",
+    "display_name": "Final",
+    "final": true,
+    "hospitality_only": false,
+    "limited-tickets": false,
+    "match_music_performer": "Ella Eyre"
+   },
+   "timestamp": "2026-08-16T18:00:00+0100",
+   "label": "TR v MSG, The Hundred Men, 16 Aug",
+   "tournamentId": {
+    "id": 76753,
+    "name": "The Hundred Men",
+    "provisional": false,
+    "description": "The Hundred Men",
+    "metadata": {}
+   },
+   "tournamentLabel": "The Hundred Men",
+   "scheduleEntry": {
+    "description": "Final",
+    "matchDate": "2026-08-16T18:00:00+0100",
+    "matchType": "T20",
+    "matchState": "C",
+    "highlightsLink": null,
+    "reportLink": null,
+    "matchPreviewLink": null,
+    "photostreamLink": null,
+    "venue": {
+     "metadata": {
+      "display_name_23274": "Lord's, London",
+      "display_name_23276": "Lord's, London",
+      "display_name_35051": "Lord's, London",
+      "display_name_35061": "Lord's, London",
+      "display_name_36254": "Lord's, London",
+      "display_name_36256": "Lord's, London",
+      "display_name_75075": "Lord's, London",
+      "display_name_75076": "Lord's, London",
+      "display_name_76678": "Lord's Cricket Ground, London",
+      "display_name_76679": "Lord's Cricket Ground, London",
+      "display_name_76752": "Lord's Cricket Ground, London",
+      "display_name_76753": "Lord's Cricket Ground, London"
+     },
+     "id": 18,
+     "fullName": "Lord's Cricket Ground",
+     "shortName": "Lord's Cricket Ground",
+     "city": "Lord's",
+     "country": "England",
+     "coordinates": {
+      "longitude": -0.172943,
+      "latitude": 51.529419
+     }
+    },
+    "matchStatus": {
+     "outcome": "B",
+     "text": "Manchester Super Giants Men win by 5 wickets"
+    },
+    "team1": {
+     "team": {
+      "metadata": {},
+      "id": 880,
+      "fullName": "Trent Rockets Men",
+      "shortName": "Trent Rockets Men",
+      "abbreviation": "TR",
+      "primaryColor": "FEE600",
+      "secondaryColor": "F03A0A",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "innings": [
+      {
+       "inningsNumber": 1,
+       "runs": 158,
+       "wkts": 8,
+       "ballsFaced": 100,
+       "maxBalls": 0,
+       "allOut": false,
+       "declared": false,
+       "adjustedRuns": null,
+       "adjustedBallsFaced": null,
+       "dlTarget": null,
+       "overProgress": "20.0",
+       "dlOversLimit": null,
+       "runRate": "7.90"
+      }
+     ]
+    },
+    "team2": {
+     "team": {
+      "metadata": {},
+      "id": 882,
+      "fullName": "Manchester Super Giants Men",
+      "shortName": "Manchester Super Giants Men",
+      "abbreviation": "MSG",
+      "primaryColor": "800000",
+      "secondaryColor": "FFFFFF",
+      "type": "MEN",
+      "typeString": null,
+      "placeholder": false
+     },
+     "innings": [
+      {
+       "inningsNumber": 2,
+       "runs": 162,
+       "wkts": 5,
+       "ballsFaced": 98,
+       "maxBalls": 0,
+       "allOut": false,
+       "declared": false,
+       "adjustedRuns": null,
+       "adjustedBallsFaced": null,
+       "dlTarget": null,
+       "overProgress": "19.3",
+       "dlOversLimit": null,
+       "runRate": "8.39"
+      }
+     ]
+    },
+    "groupName": "The Hundred Men",
+    "tbc": null,
+    "oversLimit": 20,
+    "matchId": {
+     "metadata": null,
+     "id": 113374,
+     "name": "Trent Rockets Men v Super Giants at Lord's, The Hundred Men, Final, 16 Aug 2026",
+     "altIds": {
+      "CricViz": "236065"
+     },
+     "tournamentId": {
+      "id": 76753,
+      "name": "The Hundred Men",
+      "provisional": false,
+      "description": "The Hundred Men",
+      "metadata": {}
+     }
+    }
+   },
+   "resultOnly": false,
+   "timestampMs": 1786899600000,
+   "endTimestampMs": 1786910163000,
+   "endTimestamp": "2026-08-16T20:56:03+0100",
+   "battingOrder": null
+  }
+ ]
+}
