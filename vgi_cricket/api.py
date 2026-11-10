@@ -615,19 +615,31 @@ def _ecb_salvage(
     ttl: int,
     client: httpx.Client,
     deadline: float,
-) -> list[Any]:
-    """Re-read a page ECB refuses (it 404s whole pages over one bad record) in smaller slices."""
+) -> tuple[list[Any], int | None]:
+    """Re-read a page ECB refuses in smaller slices.
+
+    ECB 404s a whole page over one bad record, and its gateway answers 504 when
+    an uncached large page takes longer than about 15 seconds at the origin.
+    Small slices avoid both. Returns the rows plus the page count (in
+    ``ECB_PAGE_SIZE`` units) when a slice reported one.
+    """
     rows: list[Any] = []
     skipped = 0
+    pages: int | None = None
     for chunk in range(
         page * ECB_PAGE_SIZE // ECB_SALVAGE_SIZE, (page + 1) * ECB_PAGE_SIZE // ECB_SALVAGE_SIZE
     ):
         try:
-            rows.extend(
-                _ecb_page(
-                    path, params, size=ECB_SALVAGE_SIZE, page=chunk, ttl=ttl, client=client, deadline=deadline
-                )["content"]
+            payload = _ecb_page(
+                path, params, size=ECB_SALVAGE_SIZE, page=chunk, ttl=ttl, client=client, deadline=deadline
             )
+            rows.extend(payload["content"])
+            info = payload.get("pageInfo") if isinstance(payload.get("pageInfo"), dict) else {}
+            entries = info.get("numEntries")
+            if isinstance(entries, int):
+                pages = -(-entries // ECB_PAGE_SIZE)
+            if not payload["content"]:
+                break
             continue
         except CricketApiError as error:
             if error.status != 404:
@@ -645,7 +657,7 @@ def _ecb_salvage(
                 skipped += 1
     if skipped:
         logger.warning("ecb_records_skipped path=%s page=%d skipped=%d", path, page, skipped)
-    return rows
+    return rows, pages
 
 
 def _ecb_pages(path: str, params: dict[str, str | int], ttl: int, client: httpx.Client | None) -> list[Any]:
@@ -659,10 +671,17 @@ def _ecb_pages(path: str, params: dict[str, str | int], ttl: int, client: httpx.
                     path, params, size=ECB_PAGE_SIZE, page=page, ttl=ttl, client=http, deadline=deadline
                 )
             except CricketApiError as error:
-                if error.status != 404 or pages is None or page >= pages:
+                bad_record = error.status == 404 and pages is not None and page < pages
+                if not (bad_record or error.status == 504):
                     raise
-                content.extend(_ecb_salvage(path, params, page=page, ttl=ttl, client=http, deadline=deadline))
-                if page + 1 >= pages:
+                if error.status == 504:
+                    logger.warning("ecb_page_timeout path=%s page=%d retrying_in_slices", path, page)
+                salvaged, sliced_pages = _ecb_salvage(
+                    path, params, page=page, ttl=ttl, client=http, deadline=deadline
+                )
+                content.extend(salvaged)
+                pages = pages if pages is not None else sliced_pages
+                if not salvaged or pages is None or page + 1 >= pages:
                     return content
                 continue
             rows = payload["content"]

@@ -235,6 +235,25 @@ def test_ecb_pagination_salvages_a_refused_page() -> None:
     assert {"id": 5125} not in content
 
 
+def test_ecb_pagination_slices_a_gateway_timeout(monkeypatch: pytest.MonkeyPatch) -> None:
+    # ECB's gateway answers 504 when an uncached 100-row page is slow at the
+    # origin, even on the first page (before the page count is known).
+    monkeypatch.setattr(api.time, "sleep", lambda seconds: None)
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        size = int(request.url.params["pageSize"])
+        page = int(request.url.params["page"])
+        if size == 100:
+            return httpx.Response(504, text="upstream request timeout")
+        start = page * size
+        rows = [{"id": n} for n in range(start, min(start + size, 25))]
+        return httpx.Response(200, json={"pageInfo": {"numEntries": 25}, "content": rows})
+
+    with _client(handler) as client:
+        content, _ = api.fetch_ecb_tournaments(client=client)
+    assert content == [{"id": n} for n in range(25)]
+
+
 def test_ecb_pagination_reports_unexpected_failures() -> None:
     with (
         _client(lambda request: httpx.Response(404)) as client,
