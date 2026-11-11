@@ -34,18 +34,18 @@ It requires no credentials and does not rehost or redistribute any dataset.
 
 ## Quick start
 
-Install the released worker with `uv`:
+The worker is not published to PyPI. `uvx` runs the tagged release straight from
+GitHub and caches it after the first use:
 
 ```bash
-uv tool install vgi-cricket
-vgi-cricket
+uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.1.0 vgi-cricket --help
 ```
 
 Launch Haybarn with the catalog pre-attached:
 
 ```bash
 uvx haybarn-cli \
-  -cmd "LOAD vgi; ATTACH 'cricket' (TYPE vgi, LOCATION 'vgi-cricket');" \
+  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'cricket' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.1.0 vgi-cricket');" \
   :memory:
 ```
 
@@ -56,7 +56,7 @@ INSTALL vgi FROM community;
 LOAD vgi;
 ATTACH 'cricket' (
   TYPE vgi,
-  LOCATION 'vgi-cricket'
+  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.1.0 vgi-cricket'
 );
 ```
 
@@ -249,7 +249,7 @@ or an explicit anonymous-access decision:
 export VGI_SIGNING_KEY='a-long-random-secret-shared-by-every-replica'
 export VGI_BEARER_TOKENS='replace-with-a-random-token=haybarn'
 
-vgi-cricket-http \
+uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.1.0 vgi-cricket-http \
   --host 0.0.0.0 \
   --port 8000 \
   --cors-origins 'https://sql.example.com' \
@@ -342,10 +342,12 @@ The offline suite serves trimmed, recorded upstream responses from
 `tests/fixtures` through a local HTTP server, including a Haybarn end-to-end test
 that attaches the worker and queries every table. Live upstream smoke tests are
 opt-in with `uv run pytest -m live` and also run in a serialized scheduled
-workflow alongside the executing VGI lint. Publishing is release-driven: create
-a GitHub release named `vX.Y.Z` matching the version in `pyproject.toml`. CI
-builds, attests, validates, and publishes the distributions through PyPI trusted
-publishing.
+workflow alongside the executing VGI lint. Publishing is driven by releases. Create a GitHub release named `vX.Y.Z` that
+matches the version in `pyproject.toml`. CI then builds, validates and attests
+the wheel and sdist, attaches them to the release, and publishes a
+multi-platform container image to `ghcr.io/query-farm/vgi-cricket`. The package is
+not published to PyPI; install it from the release tag as shown in the quick
+start.
 
 ## License
 
