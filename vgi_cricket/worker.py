@@ -256,6 +256,21 @@ _AGENT_TEST_TASKS = json.dumps(
             "prompt": "What was the IPL 2026 league-stage points table, with net run rate?",
         },
         {
+            "name": "ipl_2026_playoff_teams_top_scorers",
+            "prompt": (
+                "For each team that finished in the top four of the IPL 2026 league table, who scored the "
+                "most runs for that team across the whole season, playoffs included? Return league "
+                "position, team, batter, and total runs, ordered by league position."
+            ),
+        },
+        {
+            "name": "ipl_2026_wankhede_wickets",
+            "prompt": (
+                "Which bowler took the most wickets at Wankhede Stadium in IPL 2026, and how many? Return "
+                "the bowler and the wicket count."
+            ),
+        },
+        {
             "name": "ipl_2026_leaders",
             "prompt": "Who scored the most runs and who took the most wickets in IPL 2026?",
         },
@@ -473,7 +488,10 @@ CRICKET_CATALOG = Catalog(
                     "Cricsheet lags play by one to three days; ESPN live data is cached for 30 seconds, ICC "
                     "rankings for six hours, and ECB data for ten minutes."
                 ),
-                "vgi.example_queries": _CURRENT_MATCHES_TAGS["vgi.example_queries"],
+                "vgi.example_queries": json.dumps(
+                    [{"description": text, "sql": sql} for text, sql in f.COMPOSED_EXAMPLES]
+                    + json.loads(_CURRENT_MATCHES_TAGS["vgi.example_queries"])
+                ),
             },
             functions=list(f.FUNCTIONS),
             tables=[

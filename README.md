@@ -129,6 +129,20 @@ WHERE over_number >= 17 AND NOT super_over
 GROUP BY bowler
 HAVING count(*) FILTER (WHERE is_legal) >= 60
 ORDER BY economy;
+
+-- League table alongside each team's powerplay (overs 1-6) batting
+WITH pp AS (
+  SELECT batting_team AS team,
+         round(sum(runs_total) * 6.0 / count(*) FILTER (WHERE is_legal), 2) AS powerplay_run_rate,
+         count(*) FILTER (WHERE is_wicket) AS powerplay_wickets
+  FROM cricket.main.deliveries('ipl', season := '2026')
+  WHERE over_number <= 6 AND NOT super_over
+  GROUP BY team
+)
+SELECT s.position, s.team, s.points, pp.powerplay_run_rate, pp.powerplay_wickets
+FROM cricket.main.standings('ipl', season := '2026') s
+JOIN pp USING (team)
+ORDER BY s.position;
 ```
 
 ### Standings and leaderboards

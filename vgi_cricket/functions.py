@@ -52,6 +52,42 @@ _ECB = "the ECB PulseLive cricket API"
 
 _FINAL = "1535465"  # IPL 2026 final, Royal Challengers Bengaluru v Gujarat Titans
 
+# Composed examples combine two or more of the worker's objects in one query. Each is defined once,
+# listed on the example list of the function that drives it, and collected in COMPOSED_EXAMPLES for
+# the schema-level example list.
+KNOCKOUT_TOP_SCORERS = (
+    "Top scorer in each IPL 2026 knockout match: matches() picks the playoff fixtures and "
+    "batting_scorecard() supplies the batters.",
+    "SELECT m.start_date, m.stage, b.batting_team, b.batter, b.runs, b.balls "
+    "FROM cricket.main.matches('ipl', season := '2026') m "
+    "JOIN cricket.main.batting_scorecard('ipl', season := '2026') b USING (match_id) "
+    "WHERE m.stage IS NOT NULL "
+    "QUALIFY row_number() OVER (PARTITION BY m.match_id ORDER BY b.runs DESC, b.balls) = 1 "
+    "ORDER BY m.start_date",
+)
+GROUND_FIRST_INNINGS_AVERAGES = (
+    "Average first-innings total at each IPL 2026 ground, using the venues register's canonical names "
+    "(innings_summary joined to matches and venues on venue_id).",
+    "SELECT v.unique_name AS ground, count(*) AS matches_played, round(avg(i.runs), 1) AS avg_first_innings "
+    "FROM cricket.main.innings_summary('ipl', season := '2026') i "
+    "JOIN cricket.main.matches('ipl', season := '2026') m USING (match_id) "
+    "JOIN cricket.main.venues v USING (venue_id) "
+    "WHERE i.innings_number = 1 AND NOT i.super_over "
+    "GROUP BY ALL ORDER BY avg_first_innings DESC, ground",
+)
+POWERPLAY_VS_STANDINGS = (
+    "The IPL 2026 league table alongside each team's powerplay (overs 1-6) batting run rate and wickets "
+    "lost, aggregated from deliveries() over the whole season.",
+    "WITH pp AS (SELECT batting_team AS team, "
+    "round(sum(runs_total) * 6.0 / count(*) FILTER (WHERE is_legal), 2) AS powerplay_run_rate, "
+    "count(*) FILTER (WHERE is_wicket) AS powerplay_wickets "
+    "FROM cricket.main.deliveries('ipl', season := '2026') WHERE over_number <= 6 AND NOT super_over "
+    "GROUP BY team) "
+    "SELECT s.position, s.team, s.points, pp.powerplay_run_rate, pp.powerplay_wickets "
+    "FROM cricket.main.standings('ipl', season := '2026') s JOIN pp USING (team) ORDER BY s.position",
+)
+COMPOSED_EXAMPLES = [KNOCKOUT_TOP_SCORERS, GROUND_FIRST_INNINGS_AVERAGES, POWERPLAY_VS_STANDINGS]
+
 
 def _emit(loaded: loaders.Rows, output_schema: pa.Schema, out: OutputCollector) -> None:
     rows, ttl = loaded
@@ -252,6 +288,7 @@ _MATCHES_EXAMPLES = [
         "SELECT player_of_match, count(*) AS awards FROM cricket.main.matches('ipl', season := '2026') "
         "GROUP BY ALL ORDER BY awards DESC LIMIT 5",
     ),
+    KNOCKOUT_TOP_SCORERS,
 ]
 
 
@@ -311,6 +348,7 @@ _INNINGS_EXAMPLES = [
         "SELECT match_id, batting_team, runs, wickets, overs FROM cricket.main.innings_summary('ipl', "
         "season := '2026') WHERE NOT super_over ORDER BY runs DESC LIMIT 5",
     ),
+    GROUND_FIRST_INNINGS_AVERAGES,
 ]
 
 
@@ -483,6 +521,7 @@ _DELIVERIES_EXAMPLES = [
         "SELECT bowler, count(*) AS sixes FROM cricket.main.deliveries('ipl', season := '2026') "
         "WHERE runs_batter = 6 AND is_boundary GROUP BY ALL ORDER BY sixes DESC LIMIT 10",
     ),
+    POWERPLAY_VS_STANDINGS,
 ]
 
 

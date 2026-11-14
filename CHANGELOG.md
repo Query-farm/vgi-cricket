@@ -4,6 +4,10 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+- Composed example queries that join the worker's functions and tables (knockout top scorers,
+  ground first-innings averages, powerplay batting beside the league table), published on the
+  schema and on the driving function, plus two composed agent tasks with exact-compare graders.
+
 ## [0.2.0]
 
 - Port to VGI protocol 3.3 (vgi-python 0.51.0); requires the current VGI DuckDB extension

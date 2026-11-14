@@ -63,6 +63,40 @@ tasks:
     success_criteria: >-
       Uses standings() for IPL 2026 and orders by computed position (points, then net run rate).
 
+  - name: ipl_2026_playoff_teams_top_scorers
+    reference_sql: >-
+      WITH runs AS (
+        SELECT batting_team AS team, batter, sum(runs) AS runs
+        FROM cricket.main.batting_scorecard('ipl', season := '2026')
+        GROUP BY ALL
+      )
+      SELECT s.position, s.team, r.batter, r.runs
+      FROM cricket.main.standings('ipl', season := '2026') s
+      JOIN runs r USING (team)
+      WHERE s.position <= 4
+      QUALIFY row_number() OVER (PARTITION BY s.team ORDER BY r.runs DESC) = 1
+      ORDER BY s.position
+    unordered: false
+    ignore_column_names: true
+    success_criteria: >-
+      Takes the top four teams from standings() for IPL 2026 and, for each, the batter with the most
+      season runs from batting_scorecard() (or batting_stats()) for that team.
+
+  - name: ipl_2026_wankhede_wickets
+    reference_sql: >-
+      SELECT b.bowler, sum(b.wickets) AS wickets
+      FROM cricket.main.bowling_scorecard('ipl', season := '2026') b
+      JOIN cricket.main.matches('ipl', season := '2026') m USING (match_id)
+      JOIN cricket.main.venues v USING (venue_id)
+      WHERE v.unique_name = 'Wankhede Stadium, Mumbai'
+      GROUP BY b.bowler
+      ORDER BY wickets DESC
+      LIMIT 1
+    ignore_column_names: true
+    success_criteria: >-
+      Restricts IPL 2026 matches to Wankhede Stadium (via matches.venue or the venues register) and
+      sums bowling_scorecard() wickets per bowler: AM Ghazanfar with 8.
+
   - name: ipl_2026_leaders
     reference_sql: >-
       SELECT

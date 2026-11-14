@@ -116,3 +116,19 @@ def test_positional_and_named_arguments() -> None:
     assert not parameters["season"].required
     parameters = {p.name: p for p in f.DeliveriesFunction.get_metadata().parameters}
     assert set(parameters) == {"competition", "match_id", "season"}
+
+
+def test_composed_examples_reach_schema_and_driving_function() -> None:
+    schema = CRICKET_CATALOG.schemas[0]
+    schema_sql = [example["sql"] for example in json.loads(schema.tags["vgi.example_queries"])]
+    drivers = {
+        f.KNOCKOUT_TOP_SCORERS: f.MatchesFunction,
+        f.GROUND_FIRST_INNINGS_AVERAGES: f.InningsSummaryFunction,
+        f.POWERPLAY_VS_STANDINGS: f.DeliveriesFunction,
+    }
+    assert set(drivers) == set(f.COMPOSED_EXAMPLES)
+    for (_, sql), function in drivers.items():
+        assert sql in schema_sql
+        # The vgi-lint agent simulator only shows the first five examples of each object.
+        assert sql in [example.sql for example in function.Meta.examples[:5]]
+        assert sql in [example["sql"] for example in json.loads(function.Meta.tags["vgi.example_queries"])]
