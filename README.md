@@ -369,3 +369,7 @@ Copyright 2026 Query Farm LLC - https://query.farm
 
 The worker's code is released under the [MIT License](LICENSE). Data returned by
 the worker remains subject to the upstream licences and terms described above.
+
+## Executed notebook
+
+[Reconstruct bowling economy from delivery-level data](notebooks/README.md) with a portable, pinned worker launch and a recorded Cricsheet match.

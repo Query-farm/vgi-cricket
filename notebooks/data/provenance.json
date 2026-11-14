@@ -1,0 +1,13 @@
+{
+  "source_url": "https://cricsheet.org/downloads/ipl_json.zip",
+  "retrieved_utc": "2026-11-14T05:58:35.458280+00:00",
+  "archive_sha256": "46ff2f5e41147510a55502e52ea8761b216a319974cad907d6ff2d8c2d4be495",
+  "archive_bytes": 5214168,
+  "member": "1535465.json",
+  "member_sha256": "8ffa1aef65ac907d734f086bead171e6462d24e2659a47426b0ff77c5e19d923",
+  "member_bytes": 84938,
+  "last_modified": "Tue, 03 Nov 2026 18:10:30 GMT",
+  "transformation": "Only this complete, unchanged match JSON is retained. The local replay server repackages it into a one-match zip; it is not a complete IPL archive.",
+  "license": "Open Data Commons Attribution License 1.0",
+  "attribution": "Cricsheet \u2014 https://cricsheet.org"
+}
