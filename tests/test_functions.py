@@ -32,7 +32,12 @@ class Collector:
 def run(function: type, args: object = None, schema: pa.Schema | None = None) -> pa.Table:
     out = Collector()
     params = SimpleNamespace(args=args, output_schema=schema or function.FIXED_SCHEMA)
-    function.process(params, None, out)
+    state = function.initial_state(params)
+    # Drive the generator tick by tick, as the framework does, until it finishes.
+    for _ in range(100):
+        function.process(params, state, out)
+        if out.finished:
+            break
     assert out.finished
     assert out.cache_controls[0].ttl > 0
     return pa.Table.from_batches(out.batches)

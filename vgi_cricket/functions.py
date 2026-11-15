@@ -17,6 +17,7 @@ from vgi.table_function import (
     bind_fixed_schema,
     init_single_worker,
 )
+from vgi_rpc import ArrowSerializableDataclass
 from vgi_rpc.rpc import OutputCollector
 
 from vgi_cricket import api, loaders
@@ -93,6 +94,13 @@ def _emit(loaded: loaders.Rows, output_schema: pa.Schema, out: OutputCollector) 
     rows, ttl = loaded
     out.emit(batch_from_rows(rows, output_schema), cache_control=CacheControl(ttl=ttl))
     out.finish()
+
+
+@dataclass(kw_only=True)
+class PageCursor(ArrowSerializableDataclass):
+    """Externalized position of a scan that emits one upstream page per tick."""
+
+    next_page: int = 0
 
 
 def _tags(
@@ -1303,7 +1311,7 @@ _TEAM_RANKINGS_SQL = (
 
 @init_single_worker
 @bind_fixed_schema
-class CurrentTeamRankingsScan(TableFunctionGenerator[None]):
+class CurrentTeamRankingsScan(TableFunctionGenerator[None, PageCursor]):
     """Scan behind ``current_team_rankings``."""
 
     FIXED_SCHEMA: ClassVar[pa.Schema] = TEAM_RANKINGS_SCHEMA
@@ -1328,9 +1336,19 @@ class CurrentTeamRankingsScan(TableFunctionGenerator[None]):
         return TableCardinality(estimate=230, max=500)
 
     @classmethod
-    def process(cls, params: ProcessParams[None], state: None, out: OutputCollector) -> None:
-        """Fetch and emit every format's team rankings."""
-        _emit(loaders.all_team_rankings(), params.output_schema, out)
+    def initial_state(cls, params: ProcessParams[None]) -> PageCursor:
+        """Start at the first format."""
+        return PageCursor()
+
+    @classmethod
+    def process(cls, params: ProcessParams[None], state: PageCursor, out: OutputCollector) -> None:
+        """Emit one format's team rankings per tick, so a ``LIMIT`` read needs one request."""
+        if state.next_page >= len(api.ICC_FORMATS):
+            out.finish()
+            return
+        rows, ttl = loaders.team_rankings(api.ICC_FORMATS[state.next_page])
+        state.next_page += 1
+        out.emit(batch_from_rows(rows, params.output_schema), cache_control=CacheControl(ttl=ttl))
 
 
 _PLAYER_RANKINGS_SQL = (
@@ -1341,7 +1359,7 @@ _PLAYER_RANKINGS_SQL = (
 
 @init_single_worker
 @bind_fixed_schema
-class CurrentPlayerRankingsScan(TableFunctionGenerator[None]):
+class CurrentPlayerRankingsScan(TableFunctionGenerator[None, PageCursor]):
     """Scan behind ``current_player_rankings``."""
 
     FIXED_SCHEMA: ClassVar[pa.Schema] = PLAYER_RANKINGS_SCHEMA
@@ -1366,9 +1384,25 @@ class CurrentPlayerRankingsScan(TableFunctionGenerator[None]):
         return TableCardinality(estimate=1_510, max=1_800)
 
     @classmethod
-    def process(cls, params: ProcessParams[None], state: None, out: OutputCollector) -> None:
-        """Fetch and emit every player-ranking table."""
-        _emit(loaders.all_player_rankings(), params.output_schema, out)
+    def initial_state(cls, params: ProcessParams[None]) -> PageCursor:
+        """Start at the first (format, discipline) table."""
+        return PageCursor()
+
+    @classmethod
+    def process(cls, params: ProcessParams[None], state: PageCursor, out: OutputCollector) -> None:
+        """Emit one (format, discipline) table per tick.
+
+        Fifteen upstream requests in one tick took about ten seconds before the
+        first row appeared; streaming them lets a ``LIMIT`` read return after the
+        first request and stop the rest.
+        """
+        if state.next_page >= len(loaders.PLAYER_RANKING_TABLES):
+            out.finish()
+            return
+        comp_type, discipline = loaders.PLAYER_RANKING_TABLES[state.next_page]
+        rows, ttl = loaders.player_rankings(comp_type, discipline)
+        state.next_page += 1
+        out.emit(batch_from_rows(rows, params.output_schema), cache_control=CacheControl(ttl=ttl))
 
 
 _PEOPLE_SQL = "SELECT person_id, name, key_cricinfo FROM cricket.main.all_people() WHERE name = 'V Kohli'"

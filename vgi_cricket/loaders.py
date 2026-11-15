@@ -208,6 +208,12 @@ def player_rankings(comp_type: str, discipline: str) -> Rows:
     return icc.player_rows(comp_type, discipline, block), ttl
 
 
+PLAYER_RANKING_TABLES: tuple[tuple[str, str], ...] = tuple(
+    (comp_type, discipline) for comp_type in api.ICC_FORMATS for discipline in ("bat", "bowl", "allrounder")
+)
+"""Every (format, discipline) ICC player-rankings table, in scan order (one upstream request each)."""
+
+
 def all_team_rankings() -> Rows:
     """ICC team rankings for every format."""
     rows: list[dict[str, Any]] = []
@@ -219,9 +225,8 @@ def all_team_rankings() -> Rows:
 def all_player_rankings() -> Rows:
     """ICC player rankings for every format and discipline."""
     rows: list[dict[str, Any]] = []
-    for comp_type in api.ICC_FORMATS:
-        for discipline in ("bat", "bowl", "allrounder"):
-            rows.extend(player_rankings(comp_type, discipline)[0])
+    for comp_type, discipline in PLAYER_RANKING_TABLES:
+        rows.extend(player_rankings(comp_type, discipline)[0])
     return rows, api.ICC_TTL
 
 
