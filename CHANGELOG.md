@@ -4,6 +4,9 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+## 0.2.1 (2026-11-16)
+
+- Bump vgi-python to 0.52.2.
 - Composed example queries that join the worker's functions and tables (knockout top scorers,
   ground first-innings averages, powerplay batting beside the league table), published on the
   schema and on the driving function, plus two composed agent tasks with exact-compare graders.
