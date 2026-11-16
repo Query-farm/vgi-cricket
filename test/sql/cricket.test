@@ -1,0 +1,63 @@
+# name: test/sql/cricket.test
+# description: Hermetic end-to-end coverage: every current table plus the Cricsheet scans,
+#   served from the recorded fixtures by test/mock_api/server.py (see ci/run-integration.sh).
+# group: [cricket]
+
+require vgi
+
+require-env VGI_CRICKET_WORKER
+
+require-env CRICKET_CRICSHEET_BASE_URL
+
+statement ok
+ATTACH 'cricket' (TYPE vgi, LOCATION '{VGI_CRICKET_WORKER}');
+
+query I
+SELECT count(*) FROM cricket.main.competitions;
+----
+32
+
+query I
+SELECT count(*) FROM cricket.main.current_matches;
+----
+4
+
+query I
+SELECT count(*) FROM cricket.main.current_recent_matches;
+----
+2
+
+query I
+SELECT count(*) FROM cricket.main.current_team_rankings;
+----
+50
+
+query I
+SELECT count(*) FROM cricket.main.current_player_rankings;
+----
+75
+
+query I
+SELECT count(*) >= 20 FROM cricket.main.people;
+----
+true
+
+query I
+SELECT count(*) >= 1 FROM cricket.main.venues;
+----
+true
+
+query I
+SELECT count(*) FROM cricket.main.ecb_tournaments;
+----
+4
+
+query TI
+SELECT winner, win_by_wickets FROM cricket.main.matches('ipl', season := '2026') WHERE match_id = 1535465;
+----
+Royal Challengers Bengaluru	5
+
+query I
+SELECT sum(runs) FROM cricket.main.batting_scorecard('ipl', match_id := 1535465) WHERE batter = 'V Kohli';
+----
+75
