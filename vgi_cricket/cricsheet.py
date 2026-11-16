@@ -114,14 +114,14 @@ def _int(value: Any) -> int | None:
         return None
     try:
         return int(value)
-    except (TypeError, ValueError, OverflowError):
+    except TypeError, ValueError, OverflowError:
         return None
 
 
 def _date(value: Any) -> date | None:
     try:
         return date.fromisoformat(str(value))
-    except (TypeError, ValueError):
+    except TypeError, ValueError:
         return None
 
 

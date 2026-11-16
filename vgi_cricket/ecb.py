@@ -21,7 +21,7 @@ def _int(value: Any) -> int | None:
         return None
     try:
         return int(value)
-    except (TypeError, ValueError, OverflowError):
+    except TypeError, ValueError, OverflowError:
         return None
 
 
@@ -30,7 +30,7 @@ def _decimal(value: Any, places: str) -> Decimal | None:
         return None
     try:
         result = Decimal(str(value))
-    except (InvalidOperation, ValueError):
+    except InvalidOperation, ValueError:
         return None
     return result.quantize(Decimal(places)) if result.is_finite() else None
 

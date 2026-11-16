@@ -19,7 +19,7 @@ def _int(value: Any) -> int | None:
 def _date(value: Any) -> date | None:
     try:
         return date.fromisoformat(str(value)[:10])
-    except (TypeError, ValueError):
+    except TypeError, ValueError:
         return None
 
 

@@ -220,7 +220,7 @@ def _retry_delay(response: httpx.Response | None, attempt: int) -> float:
                     if retry_at.tzinfo is None:
                         retry_at = retry_at.replace(tzinfo=UTC)
                     delay = (retry_at - datetime.now(UTC)).total_seconds()
-                except (TypeError, ValueError, OverflowError):
+                except TypeError, ValueError, OverflowError:
                     delay = -1.0
             if delay >= 0:
                 return min(delay, MAX_RETRY_DELAY)
@@ -233,7 +233,7 @@ def _decode(content: bytes) -> bytes:
     if content[:2] == b"\x1f\x8b":
         try:
             return gzip.decompress(content)
-        except (OSError, EOFError):
+        except OSError, EOFError:
             return content
     return content
 
@@ -321,7 +321,7 @@ def _disk_load(key: str) -> _Entry | None:
     try:
         meta = json.loads(meta_path.read_text())
         body = body_path.read_bytes()
-    except (OSError, ValueError):
+    except OSError, ValueError:
         return None
     if meta.get("key") != key or meta.get("size") != len(body):
         return None
@@ -391,7 +391,7 @@ def fetch(
                 response = _request(
                     source, url, query, client=http, deadline=query_deadline, headers=conditional
                 )
-        except (httpx.TransportError, TimeoutError):
+        except httpx.TransportError, TimeoutError:
             if entry is not None and (entry.stale_until > now or disk):
                 logger.warning("cricket_api_serving_stale source=%s reason=transport", source)
                 return Fetched(entry.body, ttl)

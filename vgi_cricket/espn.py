@@ -26,7 +26,7 @@ def to_int(value: Any) -> int | None:
         return None
     try:
         return int(Decimal(str(value)))
-    except (InvalidOperation, ValueError, OverflowError):
+    except InvalidOperation, ValueError, OverflowError:
         return None
 
 
@@ -36,7 +36,7 @@ def to_rate(value: Any) -> Decimal | None:
         return None
     try:
         result = Decimal(str(value))
-    except (InvalidOperation, ValueError):
+    except InvalidOperation, ValueError:
         return None
     return result.quantize(Decimal("0.01")) if result.is_finite() else None
 
