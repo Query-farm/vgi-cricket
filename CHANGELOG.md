@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here.
 
+## 0.2.2 (2026-11-16)
+
+- Move to Python 3.14: `requires-python >=3.14`, CI, the Docker image and lint tooling target 3.14.
+- CI runs the SQL tests through the starter's `ci/run-integration.sh` over stdio, launch and HTTP.
+
 ## [Unreleased]
 
 ## 0.2.1 (2026-11-16)

@@ -1,6 +1,6 @@
 [project]
 name = "vgi-cricket"
-version = "0.2.1"
+version = "0.2.2"
 description = "A read-only VGI worker exposing cricket matches, scorecards, ball-by-ball data, standings, and ICC rankings to Haybarn SQL"
 readme = "README.md"
 license = "MIT"
