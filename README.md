@@ -32,20 +32,22 @@ as typed Arrow data for Haybarn SQL:
 
 It requires no credentials and does not rehost or redistribute any dataset.
 
+vgi-cricket 0.3.0 speaks VGI protocol 3.4, so it needs Haybarn 2.0.1 or newer (Haybarn 2.0.0 loads a 3.3 `vgi` extension that cannot attach it).
+
 ## Quick start
 
 The worker is not published to PyPI. `uvx` runs the tagged release straight from
 GitHub and caches it after the first use:
 
 ```bash
-uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.2.2 vgi-cricket --help
+uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.3.0 vgi-cricket --help
 ```
 
 Launch Haybarn with the catalog pre-attached:
 
 ```bash
 uvx haybarn-cli \
-  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'cricket' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.2.2 vgi-cricket');" \
+  -cmd "INSTALL vgi FROM community; LOAD vgi; ATTACH 'cricket' (TYPE vgi, LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.3.0 vgi-cricket');" \
   :memory:
 ```
 
@@ -56,7 +58,7 @@ INSTALL vgi FROM community;
 LOAD vgi;
 ATTACH 'cricket' (
   TYPE vgi,
-  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.2.2 vgi-cricket'
+  LOCATION 'uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.3.0 vgi-cricket'
 );
 ```
 
@@ -263,7 +265,7 @@ or an explicit anonymous-access decision:
 export VGI_SIGNING_KEY='a-long-random-secret-shared-by-every-replica'
 export VGI_BEARER_TOKENS='replace-with-a-random-token=haybarn'
 
-uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.2.2 vgi-cricket-http \
+uvx --from git+https://github.com/Query-farm/vgi-cricket@v0.3.0 vgi-cricket-http \
   --host 0.0.0.0 \
   --port 8000 \
   --cors-origins 'https://sql.example.com' \
